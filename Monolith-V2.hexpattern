@@ -40,56 +40,68 @@ Augur's Purification
     }
     {
         Mind's Reflection
-        Compass' Purification
-        Summon Greater Sentinel
-        Numerical Reflection: 1
-        Numerical Reflection: 25
-        Gemini Gambit
-        Numerical Reflection: 25
-        Flock's Gambit
+        Stadiometer's Purification
+        Numerical Reflection: 17
+        Numerical Reflection: 10
+        Division Distillation
+        Minimus Distillation
         {
-            Locate Sentinel
-            Numerical Reflection: 16
-            Zone Distillation: Player
             Mind's Reflection
-            Speaker's Distillation
-            Mind's Reflection
-            Single's Purification
-            Exclusionary Distillation
-            Gemini Decomposition
-            Augur's Purification
+            Compass' Purification
+            Summon Greater Sentinel
+            Numerical Reflection: 1
+            Numerical Reflection: 25
+            Gemini Gambit
+            Numerical Reflection: 25
+            Flock's Gambit
             {
-                Flock's Disintegration
-                Gemini Decomposition
-                Compass' Purification
                 Locate Sentinel
-                Subtractive Distillation
-                Length Purification
-                Numerical Reflection: 2
-                Minimus Distillation
+                Numerical Reflection: 16
+                Zone Distillation: Player
+                Mind's Reflection
+                Speaker's Distillation
+                Mind's Reflection
+                Single's Purification
+                Exclusionary Distillation
+                Gemini Decomposition
+                Augur's Purification
                 {
+                    Flock's Disintegration
+                    Gemini Decomposition
+                    Compass' Purification
+                    Locate Sentinel
+                    Subtractive Distillation
+                    Length Purification
+                    Numerical Reflection: 2
+                    Minimus Distillation
+                    {
+                    }
+                    {
+                        Compass' Purification
+                        Summon Greater Sentinel
+                    }
+                    Augur's Exaltation
+                    Hermes' Gambit
                 }
                 {
-                    Compass' Purification
+                    Locate Sentinel
+                    Mind's Reflection
+                    Alidade's Purification
+                    Numerical Reflection: 8
+                    Multiplicative Distillation
+                    Additive Distillation
                     Summon Greater Sentinel
                 }
                 Augur's Exaltation
                 Hermes' Gambit
             }
-            {
-                Locate Sentinel
-                Mind's Reflection
-                Alidade's Purification
-                Numerical Reflection: 8
-                Multiplicative Distillation
-                Additive Distillation
-                Summon Greater Sentinel
-            }
-            Augur's Exaltation
-            Hermes' Gambit
+            Jester's Gambit
+            Thoth's Gambit
         }
-        Jester's Gambit
-        Thoth's Gambit
+        {
+        }
+        Augur's Exaltation
+        Hermes' Gambit
     }
     Augur's Exaltation
     Hermes' Gambit
