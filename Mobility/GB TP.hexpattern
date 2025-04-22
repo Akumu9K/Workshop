@@ -1,0 +1,106 @@
+// Translation Step, Find the "Player to Target" vector
+Scribe's Reflection
+Mind's Reflection
+Compass' Purification
+Subtractive Distillation
+// Trim the vector down to 125 length
+Gemini Decomposition
+Length Purification
+Division Distillation
+Numerical Reflection: 125
+Multiplicative Distillation
+// Add a -1.8 Y (Player Height) vector to it
+Mind's Reflection
+Compass' Purification II
+Mind's Reflection
+Compass' Purification
+Subtractive Distillation
+Additive Distillation
+// Rotation Step, Change of basis. Refer to https://www.desmos.com/3d/qby92k3xns
+Numerical Reflection: 3
+Gemini Gambit
+// Find the X vector of the player basis. Its flipped cus minecraft, so fun.
+Mind's Reflection
+Alidade's Purification
+Mind's Reflection
+Theodolite's Purification
+Division Distillation
+Numerical Reflection: -1
+Multiplicative Distillation
+// Dot product of Player X- and Adjusted PT Vector (APTV).
+Division Distillation
+// Push it down, X component is done.
+Rotation Gambit II
+// Find the Y vector of the player basis. Alternate method (To theodolite) is:
+// ( (Player Look Vector) Cross (Y+) / |(Player Look Vector) Cross (Y+)| ) Cross (Player Look Vector)
+// Breaks down when looking directly at Y+ or Y-
+Mind's Reflection
+Theodolite's Purification
+// Dot product of Player Y+ and APTV
+Division Distillation
+// Push it down, Y component is done.
+Jester's Gambit
+// Find the Z vector of the player basis. Just alidade's.
+Mind's Reflection
+Alidade's Purification
+// Dot product of Player Z+ and APTV
+Division Distillation
+// Basis of APTV changed, components arranged. Now just combine em
+Vector Exaltation
+// Our tp vector is done, with 1 problem. It will only teleport us 125 blocks, which is not exactly long range. Nor specific. Time to do that.
+// One small problem for doing it like this. We need some number of 125 long iterations, PLUS, a shorter iteration at the last step.
+// And we already baked the -Y vector to stop us from going up, into the vector. Which wont work correctly when we shorten the vector for the last step.
+// A few ways I propose of solving this:
+// 1. Calculate the two seperately, then simply modulate the length of the destination vector, while applying a constant Y- at every step.
+// 2. Simply dont include the Y-, instead do it without, and as a final final step, teleport down to account for the rise.
+// 3. Just recalculate for the last step.
+// 4. Just cope with the rise.
+
+// I will be using proposal 4 because Im a lazy dipshit and this is the 1st version.
+
+// Now we need to calculate how many iterations we need. 
+
+// Make a copy of the TP Vector, this is a surprise tool that will help us later
+Gemini Decomposition
+// Find the "PT Vector" again
+Scribe's Reflection
+Mind's Reflection
+Compass' Purification
+Subtractive Distillation
+// Find its length
+Length Purification
+// Now divide it by 125 to find how many steps we need 
+Numerical Reflection: 125
+Division Distillation
+// Now we need to seperate this number into its integer and fractional components
+Gemini Decomposition
+Gemini Decomposition
+Floor Purification
+Subtractive Distillation
+// Fraction done
+Jester's Gambit
+Floor Purification
+Jester's Gambit
+// Integer done
+
+// Now the stack is:
+// Fractional Step
+// Integer Step
+// TP Vector
+// TP Vector
+
+// We do the fractional step first
+Rotation Gambit
+Multiplicative Distillation
+Greater Blink
+// Now the full steps
+Gemini Gambit
+Flock's Reflection
+Flock's Gambit
+{
+    Greater Blink
+}
+Jester's Gambit
+Thoth's Gambit
+
+// TODO: Rewrite this horrendous mess, maybe with matrices, I dunno. I like the dot product version of the basis change though.
