@@ -1,0 +1,129 @@
+// Translation Step, Find the "Player to Target" vector
+Scribe's Reflection
+Mind's Reflection
+Compass' Purification
+Subtractive Distillation
+// Trim the vector down to 125 length
+Gemini Decomposition
+Length Purification
+Division Distillation
+Numerical Reflection: 125
+Multiplicative Distillation
+// Add an "Anti Rise" (Around Y- 1.8 (Player Height) or more) vector to it. This is the solution for the rise problem.
+// The rise problem is this: Greater Blink teleports not a players eye position to the designated coordinate
+// But their feet position. This means there is a roughly 1.8 meter rise for every GB.
+// This is fine for most utilizations of GB, but when you want to chain them together for long distance travel, you run into a problem.
+// The last iteration, which will likely be a fraction, wont apply the full 1.8 meter down, but a smaller value since the vector will be truncated.
+// There is a couple solutions I proposed for this in V1 but, this one is a far better solution than any of those imo.
+// Its rather simple. You spread out the last needed downward push between all GB's. 
+// This is done through a very simple equation, ( Ceiling of (Iteration Count)/(Iteration Count) ) times -Y 1.8
+Mind's Reflection
+Compass' Purification II
+Mind's Reflection
+Compass' Purification
+Subtractive Distillation
+// The rise problem solution starts here.
+Scribe's Reflection
+Mind's Reflection
+Compass' Purification
+Subtractive Distillation
+Numerical Reflection: 125
+Division Distillation
+Gemini Decomposition
+Ceiling Purification
+Jester's Gambit
+Division Distillation
+Multiplicative Distillation
+// Rise problem solution end.
+// Now just add it to our destination vector.
+Additive Distillation
+// Rotation Step, Change of basis. Refer to https://www.desmos.com/3d/qby92k3xns
+Numerical Reflection: 3
+Gemini Gambit
+// Find the X vector of the player basis. Its flipped cus minecraft, so fun.
+Mind's Reflection
+Alidade's Purification
+Mind's Reflection
+Theodolite's Purification
+Division Distillation
+Numerical Reflection: -1
+Multiplicative Distillation
+// Dot product of Player X- and Adjusted PT Vector (APTV).
+Division Distillation
+// Push it down, X component is done.
+Rotation Gambit II
+// Find the Y vector of the player basis. Alternate method (To theodolite) is:
+// ( (Player Look Vector) Cross (Y+) / |(Player Look Vector) Cross (Y+)| ) Cross (Player Look Vector)
+// Breaks down when looking directly at Y+ or Y-
+Mind's Reflection
+Theodolite's Purification
+// Dot product of Player Y+ and APTV
+Division Distillation
+// Push it down, Y component is done.
+Jester's Gambit
+// Find the Z vector of the player basis. Just alidade's.
+Mind's Reflection
+Alidade's Purification
+// Dot product of Player Z+ and APTV
+Division Distillation
+// Basis of APTV changed, components arranged. Now just combine em
+Vector Exaltation
+// Our tp vector is done, with 1 problem. It will only teleport us 125 blocks, which is not exactly long range. Nor specific. Time to do that.
+// Now we need to calculate how many iterations we need. 
+// Make a copy of the TP Vector, this is a surprise tool that will help us later
+Gemini Decomposition
+// Find the "PT Vector" again
+Scribe's Reflection
+Mind's Reflection
+Compass' Purification
+Subtractive Distillation
+// Find its length
+Length Purification
+// Now divide it by 125 to find how many steps we need 
+Numerical Reflection: 125
+Division Distillation
+// Now we need to seperate this number into its integer and fractional components
+Gemini Decomposition
+Gemini Decomposition
+Floor Purification
+Subtractive Distillation
+// Fraction done
+Jester's Gambit
+Floor Purification
+Jester's Gambit
+// Integer done
+
+// Now the stack is:
+// Fractional Step
+// Integer Step
+// TP Vector
+// TP Vector
+
+// We do the fractional step first
+Rotation Gambit
+Multiplicative Distillation
+Greater Blink
+// Now the full steps
+// We need to implement a check here, incase our target is in a single GB range, so the integer part is 0. 
+Gemini Decomposition
+Augur's Purification
+{
+    Gemini Gambit
+    Flock's Reflection
+    Flock's Gambit
+    {
+        Greater Blink
+    }
+    Jester's Gambit
+    Thoth's Gambit
+}
+{
+    Bookkeeper's Gambit: v
+}
+Augur's Exaltation
+Hermes Gambit
+
+// TODO: 
+// Implement media check.
+// Implement dimensional travel.
+// make it so it can use chat casting instead of holding the coords in the offhand. 
