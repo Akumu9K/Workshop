@@ -1,0 +1,56 @@
+// First one is the Initializer, it stores a list (Which is the ravenmind from the last iteration) 
+// and puts it into the ravenmind.
+{
+    {
+        (Placeholder)
+    }
+    Flock's Disintegration
+    Huginn's Gambit
+}
+
+// Second is the Repackager, it takes the ravenmind list and puts it into the next iteration.
+// I have two versions of it, the first uses a number (Which goes on the unknown pattern)
+// the second finds the placeholder.
+
+// The first is alot more efficient btw.
+{
+    {
+        (Quine Location (Number))
+    }
+    Flock's Disintegration
+    Muninn's Reflection
+    Surgeon's Exaltation
+}
+{
+    Gemini Decomposition
+    {
+        (Placeholder)
+    }
+    Flock's Disintegration
+    Locator's Distillation
+    Muninn's Reflection
+    Surgeon's Exaltation
+}
+
+// Next are the read and write functions.
+// Both use a number to target a specific "cell"
+
+// Read 
+{
+    Muninn's Reflection
+    {
+        (RAM Location (Number))
+    }
+    Selection Distillation
+}
+
+// Write
+{
+    Muninn's Reflection
+    {
+        (RAM Location (Number))
+    }
+    Rotation Gambit
+    Surgeon's Exaltation
+    Huginn's Gambit
+}

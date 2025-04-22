@@ -1,0 +1,80 @@
+{
+    // Check if Readable
+    Auditor's Reflection
+    {
+        // Check if Iota is one of the specified Input Iotas
+        Scribe's Reflection
+        {
+            (Input "on" (Iota))
+        }
+        Flock's Disintegration
+        Equality Distillation
+        Scribe's Reflection
+        {
+            (Input "off" (Iota))
+        }
+        Flock's Disintegration
+        Equality Distillation
+        Disjunction Distillation
+        {
+            // Save Iota to RAM
+            Muninn's Reflection
+            {
+                (RAM Location (Number))
+            }
+            Flock's Disintegration
+            Scribe's Reflection
+            Surgeon's Exaltation
+            Huginn's Gambit
+        }
+        {
+            (Empty)
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {
+        (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // Run if On
+    Muninn's Reflection
+    {
+        (RAM Location (Number))
+    }
+    Flock's Disintegration
+    Selection Distillation
+    {
+        (Input "on" (Iota))
+    }
+    Flock's Disintegration
+    Equality Distillation
+    {
+        {
+            (Akashic Library Vector (Vector))
+        }
+        Flock's Disintegration
+        {
+            (Akashic Library Pattern (Pattern))
+        }
+        Flock's Disintegration
+        Akasha's Distillation
+        Hermes' Gambit
+    }
+    {
+        (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+
+// So heres the first function I made for this thing. Its an on and off state saver.
+// It looks for a 2 specific iota, if it doesnt find em it just runs based on saved data
+// if it finds them, it runs on that data and saves them
+// This is an on off thing so you cant have “mode 1, mode 2” with this 
+// but a modified version can very much do that
+
+// The first 2 save those specific iotas, 3rd is for a “ram location”, a number basically
+// 4th is a “ram location” one aswell, 5th is a specific iota one, specifically the “on” one. 
+// And finally, 6th and 7th is for the akashic library access.
