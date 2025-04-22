@@ -1,0 +1,82 @@
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Numerical Reflection: 30
+Multiplicative Distillation
+Additive Distillation
+Summon Greater Sentinel
+Numerical Reflection: 1
+Numerical Reflection: 25
+Gemini Gambit
+Flock's Reflection
+Flock's Gambit
+{
+    Locate Sentinel
+    Numerical Reflection: 16
+    Zone Distillation: Player
+    Gemini Decomposition
+    Augur's Purification
+    {
+        Flock's Disintegration
+        Gemini Decomposition
+        Compass' Purification
+        Locate Sentinel
+        Subtractive Distillation
+        Length Purification
+        Numerical Reflection: 2
+        Minimus Distillation
+        {
+        }
+        {
+            Compass' Purification
+            Summon Greater Sentinel
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {
+        Locate Sentinel
+        Mind's Reflection
+        Alidade's Purification
+        Numerical Reflection: 8
+        Multiplicative Distillation
+        Additive Distillation
+        Summon Greater Sentinel
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Jester's Gambit
+Thoth's Gambit
+Bookkeeper's Gambit: v
+{
+    Gemini Decomposition
+    Gemini Decomposition
+    Compass' Purification
+    {
+        Bookkeeper's Gambit: -
+    }
+    Flock's Disintegration
+    Jester's Gambit
+    Subtractive Distillation
+    Greater Teleport
+    Numerical Reflection: 100
+    Numerical Reflection: 5
+    Multiplicative Distillation
+    Gemini Gambit
+    Flock's Reflection
+    Flock's Gambit
+    {
+        Vector Reflection -Y
+        Numerical Reflection: 5
+        Division Distillation
+        Impulse
+    }
+    Jester's Gambit
+    Thoth's Gambit
+}
+Locate Sentinel
+Numerical Reflection: 16
+Zone Distillation: Player
+Thoth's Gambit
