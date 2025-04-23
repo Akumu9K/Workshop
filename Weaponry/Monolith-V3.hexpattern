@@ -1,0 +1,166 @@
+Mind's Reflection
+Compass' Purification
+Numerical Reflection: 32
+Zone Distillation: Player
+Mind's Reflection
+Speaker's Distillation
+Mind's Reflection
+Single's Purification
+Exclusionary Distillation
+Gemini Decomposition
+Augur's Purification
+{
+    {
+        Compass' Purification II
+    }
+    Jester's Gambit
+    Thoth's Gambit
+    Flock's Disintegration
+    Summon Sentinel
+}
+{
+    Locate Sentinel
+    Numerical Reflection: 16
+    Zone Distillation: Player
+    Mind's Reflection
+    Speaker's Distillation
+    Mind's Reflection
+    Single's Purification
+    Exclusionary Distillation
+    Gemini Decomposition
+    Augur's Purification
+    {
+        {
+            Compass' Purification II
+        }
+        Jester's Gambit
+        Thoth's Gambit
+        Flock's Disintegration
+        Summon Sentinel
+    }
+    {
+        Mind's Reflection
+        Stadiometer's Purification
+        Numerical Reflection: 17
+        Numerical Reflection: 10
+        Division Distillation
+        // Only if pekhui is installed 
+        Mind's Reflection
+        Gulliver's Purification
+        Multiplicative Distillation
+        // End
+        Minimus Distillation
+        {
+            Mind's Reflection
+            Compass' Purification
+            Summon Greater Sentinel
+            Numerical Reflection: 1
+            Numerical Reflection: 25
+            Gemini Gambit
+            Numerical Reflection: 25
+            Flock's Gambit
+            {
+                Locate Sentinel
+                Numerical Reflection: 16
+                Zone Distillation: Player
+                Mind's Reflection
+                Speaker's Distillation
+                Mind's Reflection
+                Single's Purification
+                Exclusionary Distillation
+                Gemini Decomposition
+                Augur's Purification
+                {
+                    Flock's Disintegration
+                    Gemini Decomposition
+                    Compass' Purification
+                    Locate Sentinel
+                    Subtractive Distillation
+                    Length Purification
+                    Numerical Reflection: 2
+                    Minimus Distillation
+                    {
+                    }
+                    {
+                        Compass' Purification
+                        Summon Greater Sentinel
+                    }
+                    Augur's Exaltation
+                    Hermes' Gambit
+                }
+                {
+                    Locate Sentinel
+                    Mind's Reflection
+                    Alidade's Purification
+                    Numerical Reflection: 8
+                    Multiplicative Distillation
+                    Additive Distillation
+                    Summon Greater Sentinel
+                }
+                Augur's Exaltation
+                Hermes' Gambit
+            }
+            Jester's Gambit
+            Thoth's Gambit
+        }
+        {
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
+{
+    Locate Sentinel
+    Numerical Reflection: 16
+    Zone Distillation: Player
+    Mind's Reflection
+    Speaker's Distillation
+    Mind's Reflection
+    Single's Purification
+    Exclusionary Distillation
+    Auditor's Reflection
+    {
+        Scribe's Reflection
+        Jester's Gambit
+        Thoth's Gambit
+    }
+    {
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Reveal
+}
+Hermes' Gambit
+
+// TODO: 
+
+// It was about time I overhauled this thing.
+// So lets talk about it a bit, shall we?
+
+// Monolith is a weapon developed to excel in the PVP Meta that would arise in an environment with only base Hexcasting. (Aka no addons of hexcasting.)
+// Specifically, it is meant to excel in an environment mostly lacking Beyond Render Range (BRR) combat elements, where it is meant to dominate in the close to medium ranges, between <32 blocks to <200 blocks.
+
+// Whoa there, holup! Those are some big words (With no meaning to most people) that Im using to sound smart. But I kinda need to explain what they mean in order to explain this weapon, so lets get into that shall we?
+
+// PVP in Hexcasting is kind of a weird concept, mainly because of one thing. Ambit. Specifically, the discrepancy of power a player can exert to things in ambit versus out of ambit.
+// Any hex is unable to affect things outside of ambit (With a few notable exceptions, see sentinel walkers and railguns, but thats kinda cheating.)
+// But the influence they have over things inside the ambit is simply staggering. For our case, specifically the destructive potential is what matters.
+// There is like 9 billion (Okay maybe 8) ways of instakilling someone in Hexcasting. TP to void and yeet is a fun one, but you also have stuff like plain ol explosion, or status effects, or just game breaking ways of exploiting how Hexcasting works.
+// These two factors, the discrepancy of power between in ambit and out ambit, and the sheer destructive potential of hexes, means that any PVP meta that results from Hexcasting will likely be a rocket tag game. (See: https://tvtropes.org/pmwiki/pmwiki.php/Main/RocketTagGameplay)
+
+// The less fancier way of saying all that nonesense is, hex pvp is a game of speed at its basest. Not of skill, not of planning, but simply of whoever clicks first when the two players enter each others ambit.
+// This means that, anything added to the Hexcasting PVP Meta TM will favor range and stealth. The only way to survive in an environment where glass cannons are a requirement, is to have range, and to see your enemy first before they see you.
+
+// This is why I used the term "Beyond Render Range". Its analogous to Beyond Visual Range combat seen in modern aerial combat, which is a very similar environment to Hex PVP, in that, if you are seen you fucking die. And range makes it harder for you to be seen (Range is good for many things but this is just peak.).
+// In a Hex PVP Meta TM environment where BRR combat is regularly used, this weapon is kinda fucking useless outside of personal defence purposes. 
+
+// Buuuuut, if the servers meta isnt drenched in sweaty tryhards yet; (Which it likely isnt, seriously I think Im the only person who even bothers to think about Hex PVP to this depth. Insert InvincibleConquestCopeAndSeetheSpeech.mp3 here)
+// ...Then this weapon will be great! Because it was engineered specifically for such an environment.
+
+// Now lets talk about how it works, and the theory!
+
+// So its rather simple. It first checks your ambit if there is any player around you. If it doesnt find any players, it then checks your greater sentinels ambit. 
