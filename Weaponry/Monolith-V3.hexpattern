@@ -1,3 +1,58 @@
+// First part of the spell is Hex Malware TM!
+// Basically, you put your true name in it, if you are the one casting it, great! 
+// If somebody else casts it, they die, in horrific fashion!
+// To see how horrific, look at the code below!
+// The spell first checks if the person has a writeable thing on their offhand. If yes, it writes their truename on it!
+// Then it inflicts wither 3 for 20 seconds. 10 would be enough to kill but, just compensating for healing and extra hp.
+// Then it picks out a very special iota from an akashic library. So fun story, a couple weeks ago one of the devs in the hexcasting dc discovered that, you can make something horrific with iris gambit!
+// You just recursively add data to a jump iota till it becomes a cognitohazard!
+// Thats what it picks out :3 
+// And then, finally, it mishaps with waystone reflection, spilling out all of their inventory, and yes that includes armor. Keep inventory wont save you.
+// The charons gambit is just for insurance~ 
+
+// As the old saying goes, fuck around, find out and DONT TOUCH MY SHIT YOU FUCKER.
+
+Mind's Reflection
+{
+    (Truename (Entity Iota))
+}
+Flock's Disintegration
+Equality Distillation
+{
+    (Empty)
+}
+{
+    Assessor's Reflection
+    {
+        Mind's Reflection
+        Scribe's Gambit
+    }
+    {
+        (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Mind's Reflection
+    Numerical Reflection: 20
+    Numerical Reflection: 3
+    Black Sun's Nadir
+    {
+        (Akashic Library Coordinates (Vector))
+    }
+    Flock's Disintegration
+    {
+        (Akashic Library Pattern (Pattern))
+    }
+    Flock's Disintegration
+    Akasha's Distillation
+    Waystone Reflection
+    Charon's Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
+
+// After that is the spell itself.
+
 Mind's Reflection
 Compass' Purification
 Numerical Reflection: 32
@@ -11,7 +66,7 @@ Gemini Decomposition
 Augur's Purification
 {
     {
-        Compass' Purification II
+        Compass' Purification
     }
     Jester's Gambit
     Thoth's Gambit
@@ -31,7 +86,7 @@ Augur's Purification
     Augur's Purification
     {
         {
-            Compass' Purification II
+            Compass' Purification
         }
         Jester's Gambit
         Thoth's Gambit
@@ -44,12 +99,27 @@ Augur's Purification
         Numerical Reflection: 17
         Numerical Reflection: 10
         Division Distillation
-        // Only if pekhui is installed 
+        (// Only if pekhui is installed 
         Mind's Reflection
         Gulliver's Purification
         Multiplicative Distillation
-        // End
+        )// End
         Minimus Distillation
+        (// If you want to be able to decide whether the sentinel walker should be useable in flight or not. You can omit this if you want.
+        Mind's Reflection
+        Stadiometer's Purification
+        Numerical Reflection: 1
+        (// Only if pekhui is installed 
+        Mind's Reflection
+        Gulliver's Purification
+        Multiplicative Distillation
+        )// End 
+        Maximus Distillation
+        Negation Purification
+        // Use disjunction distillation (OR) here to be able to use it in flight, use exclusion distillation (XOR) if you want to disable it in flight.
+        // I just went with disjunction distillation as default.
+        Disjunction Distillation
+        )// End
         {
             Mind's Reflection
             Compass' Purification
@@ -104,6 +174,7 @@ Augur's Purification
             Thoth's Gambit
         }
         {
+            (Empty)
         }
         Augur's Exaltation
         Hermes' Gambit
@@ -129,6 +200,7 @@ Hermes' Gambit
         Thoth's Gambit
     }
     {
+        (Empty)
     }
     Augur's Exaltation
     Hermes' Gambit
@@ -136,7 +208,7 @@ Hermes' Gambit
 }
 Hermes' Gambit
 
-// TODO: 
+// TODO: A bunch of stuff ig.
 
 // It was about time I overhauled this thing.
 // So lets talk about it a bit, shall we?
@@ -164,3 +236,38 @@ Hermes' Gambit
 // Now lets talk about how it works, and the theory!
 
 // So its rather simple. It first checks your ambit if there is any player around you. If it doesnt find any players, it then checks your greater sentinels ambit. 
+// In both of those cases, if it finds any player (other than you), it spawns your greater sentinel right ontop of them. This is the key to its functionality.
+// However, if both of those checks fail, then it checks if you are crouching or not, and if you are, it sends out a sentinel walker with a 200 block range, made to home in on the first player target it finds.
+
+// A slight note on that. The thing is, while you are flying, you cant exactly crouch. The spell acts as if you are always crouching, and thus, if it does not find any players in your or the greater sentinels ambit, it will send out a sentinel walker regardless.
+// For this I added some functionality to be able to decide if the sentinel walker should be useable in flight or not. By default it is, because the supreme strategic advantage of high speed aerial bombardment trumps any annoyance from offsetting your carefully placed sentinel.
+// Besides, for jobs where you want your sentinel to stay put, you likely wont be flying. But, the option to disable it is there.
+
+// Anyways.
+// After those checks, it then moves onto the "attack phase" of its function. It checks your greater sentinels ambit, and if it finds any players (other than you), it checks your offhand for a spell to use on them. If there is none, it simply doesnt do anything. If there is, it executes the spell on every player.
+// And after that, it reveals the list left behind by thoth (or lack of thoth), which, if you use it without a spell, is guraanteed to be a list of players in ambit. 
+
+// Now that we know how it works, lets go into theory.
+// This weapon has a few use cases. For most of these use cases, you need a few more tools for it to reach its full potential, like a hex to place down your sentinel, and a spellbook to save some offensive spells for it to use.
+
+// First of these use cases is hit and run tactics. Unless if the enemy is using auto-nukers around their ambit, you can very easily dip into their ambit with an elytra, activate the weapon to place your greater sentinel right ontop of the person (Plus attack them if you want) and then gtfo there.
+// From then on, as long as you activate the hex before the enemy moves 16 blocks away from the sentinel, the sentinel will teleport onto the player with every activation, essentially following them. I termed this behaviour, Spam-Homing Missile. Its a silly name but illustrates what it does fairly well.
+// This is the hex'es primary use case, to be used in hit and run tactics to give your enemy a massive range disadvantage as you can keep hitting them while extending away.
+
+// The second use case is mines and traps. You can simply just place your sentinel somewhere (This is why you ideally need that sentinel placer tool) and wait somewhere hidden. If anybody gets into ambit, just activate it, and either "spy" on them (Which is redundant you are already doing so) OR, nuke them. Nuking them is funnier btw do that.
+// However, given that this works from any distance, you very much could just set your sentinel down anywhere and activate the hex sometimes to check if theres anybody near it. Now that would count as spying. 
+
+// The final use case is long range bombardment. This is what the sentinel walker is for, to bash in heads from 200 blocks away. Rather self explanatory, devastating when used in conjunction with flight. Be crimes commit gay.
+
+// A few tidbits about the hex. 
+// For any offensive spell, ideally make it so the thoth leaves behind the same list as it used. So duplicate the names before doing shit to them.
+// As mentioned before, the sentinel walker is always functional in flight (Unless if you turn it off). So uhhhh, be careful.
+// If you have any addons, you can bind it to a different input than crouch, so that would solve the issue. But Im making this for base hex (as mentioned before).
+// Try not to accidentally cast it while holding a focus or spellbook page etc that stores the same hex. Quite unlikely but, it will kill you, and potentially crash the server. Just be careful.
+// There is no way to add any "friendlies" in base hex. So stay away from your teammates lest you commit blue on blue. Oh and they need to stay the fuck away from the enemies too. Just be careful lol.
+// Please name this thing properly. Its good practice to name your artifacts/trinkets to not confuse them, but trust me, you dont wanna accidentally set this off and become a mass murderer. Just be careful.
+// The hex casts on every single person in ambit of the sentinel, other than you. Any spell with high cost (Like void tp and yeet) has good chance of overcasting and killing you if used with a large group. Be mindful of your media usage.
+// Its possible to put a conditional inside your offensive spell, which is much easier than modifying an artifact, and also lets you avoid the headache of modifying this thing for a friend or foe function.
+
+// If you end up needing to use this hex on, say, some public server or such, basically anywhere thats not a tight knit friend server, please invite me. I wanna join in on the fun. I love killing people. Please let me kill people.
+// My mental faculties are fully functional and healthy, why do you ask? 
