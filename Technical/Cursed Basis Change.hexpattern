@@ -1,0 +1,422 @@
+// This is a method of doing basis change from the standard XYZ basis of minecraft to any given ABC basis. 
+// Its based on this: https://www.desmos.com/3d/ejhslqcl7h 
+// You do not need matrices to do linear algebra :3
+// It takes 4 inputs, A,B,C,V1. ABC are the new basis vectors corresponding to XYZ. V1 is the vector you are changing the basis of
+// This pattern uses the ravenmind but restores it afterwards. So with an empty ravenmind, it will set the ravenmind to null.
+
+Numerical Reflection: 4
+Flock's Gambit
+Retrograde Purification
+Muninn's Reflection
+Jester's Gambit
+Huginn's Gambit
+Muninn's Reflection
+// The stack is now, [A,B,C,V1], (Previous ravenmind iota). Ravenmind is now [A,B,C,V1]
+// With selection distillation, 0 selects A, 1 selects B, 2 selects C, 3 selects V1
+// Now we gotta do some gram schmidt thingy. Look it up on wikipedia if you want
+Gemini Decomposition
+Numerical Reflection: 1
+Selection Distillation
+Jester's Gambit
+Numerical Reflection: 0
+Selection Distillation
+// Stack is now, A, B
+Gemini Decomposition
+Rotation Gambit II
+// Stack is now, A, B, A
+Jester's Gambit
+// I will be using my own vector projection thingy because Im based like that but it can be replaced with the vector projection pattern in hexcasting.
+// The formula for it is, ( (v1 dot v2) / length(v1)^2) * v1, v1 is the one being projected on, v2 is the one being projected 
+// For the sake of optimization, the specific formula used is ( (v1 dot v2) / (v1 dot v1) ) * v1, because v1 dot v1 is equivalent to length(v1)^2
+// v1 ontop, v2 at the bottom, on the stack.
+Gemini Decomposition
+Rotation Gambit II
+Multiplicative Distillation
+Prospector's Gambit
+Gemini Decomposition
+Multiplicative Distillation
+Division Distillation
+Multiplicative Distillation
+// Vector projection end.
+// Now we have a vector thats A projected onto B, time to subtract it from A
+Numerical Reflection: -1
+Multiplicative Distillation
+Additive Distillation
+// Time to normalize
+Gemini Decomposition
+Length Purification
+Division Distillation
+// This new vector will be called A-C1
+// Now we need to do that whole process again, but with B and C. First lets duplicate A-C1 though, we will need it
+Gemini Decomposition
+// Stack is now, A-C1,A-C1,(Previous ravenmind iota)
+Muninn's Reflection
+Gemini Decomposition
+Numerical Reflection: 2
+Selection Distillation
+Jester's Gambit
+Numerical Reflection: 0
+Selection Distillation
+// Stack is now, C, B, the rest
+Gemini Decomposition
+Rotation Gambit II
+Jester's Gambit
+Gemini Decomposition
+Rotation Gambit II
+Multiplicative Distillation
+Prospector's Gambit
+Gemini Decomposition
+Multiplicative Distillation
+Division Distillation
+Multiplicative Distillation
+Numerical Reflection: -1
+Multiplicative Distillation
+Additive Distillation
+Gemini Decomposition
+Length Purification
+Division Distillation
+// This new vector will be called C-C1P
+// The stack is now, C-C1P,A-C1,A-C1,(Previous ravenmind iota)
+// Now we need to do that process again, but with C-C1P and A-C1, to get C-C1. C-C1, A-C1 and B (Normalized) will be used for a basis change of, A, C and V1. B will become the Y+ vector
+Gemini Decomposition
+Rotation Gambit II
+Jester's Gambit
+Gemini Decomposition
+Rotation Gambit II
+Multiplicative Distillation
+Prospector's Gambit
+Gemini Decomposition
+Multiplicative Distillation
+Division Distillation
+Multiplicative Distillation
+Numerical Reflection: -1
+Multiplicative Distillation
+Additive Distillation
+Gemini Decomposition
+Length Purification
+Division Distillation
+// The stack is now, C-C1, A-C1, (Previous ravenmind iota)
+// Now lets bring B out and arrange them into A B C
+Muninn's Reflection
+Numerical Reflection: 1
+Selection Distillation
+Gemini Decomposition
+Length Purification
+Division Distillation
+// Normalized B
+// Stack is now, B, C-C1, A-C1
+Rotation Gambit
+// Now lets package em up into a list. 
+Numerical Reflection: 3
+Flock's Gambit
+// Now time to change the basis of A, C and V1!
+// A first, it will be called A2 after this
+Gemini Decomposition
+Muninn's Reflection
+Numerical Reflection: 0
+Selection Distillation
+// Stack is now, A, [A-C1,B,C-C1],[A-C1,B,C-C1],(Previous ravenmind iota)
+Jester's Gambit
+Speaker's Decomposition
+// Stack is now, A-C1, [B,C-C1], A
+Jester's Gambit
+Rotation Gambit II
+// Stack is now, A-C1, A, [B,C-C1]
+Prospector's Gambit
+Multiplicative Distillation
+// This is the X component of our basis changed A vector, A2.x
+Rotation Gambit II
+// Stack is now, A, [B,C-C1], A2.x
+// We now repeat.
+Jester's Gambit
+Speaker's Decomposition
+Jester's Gambit
+Rotation Gambit II
+Prospector's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+// Stack is now, A, [C-C1], A2.y, A2.x (I think, I havent checked.)
+// One more time
+Jester's Gambit
+Speaker's Decomposition
+Jester's Gambit
+Rotation Gambit II
+Prospector's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+// Stack is now, A, [], A2.z, A2.y, A2.x
+// Time to get rid of the top two useless iotas and form A2.
+Bookkeeper's Gambit: vv
+Vector Exaltation
+// Stack is now, A2, [A-C1,B,C-C1],(Previous ravenmind iota)
+// Now we repeat for C and V1. 
+Jester's Gambit
+Gemini Decomposition
+Muninn's Reflection
+Numerical Reflection: 2
+Selection Distillation
+// Selected C, stack is, C, [construct list],[construct list], A2, (Previous ravenmind iota)
+Jester's Gambit
+Speaker's Decomposition
+Jester's Gambit
+Rotation Gambit II
+Prospector's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+Jester's Gambit
+Speaker's Decomposition
+Jester's Gambit
+Rotation Gambit II
+Prospector's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+Jester's Gambit
+Speaker's Decomposition
+Jester's Gambit
+Rotation Gambit II
+Prospector's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+// Stack is now, C, [], C2.z, C2.y, C2.x, [construct list], A2, (Previous ravenmind iota)
+Bookkeeper's Gambit: vv
+Vector Exaltation
+// Stack is now, C2, [construct list], A2, (PRI)
+// Now for V1
+Jester's Gambit
+Gemini Decomposition
+Muninn's Reflection
+Numerical Reflection: 3
+Selection Distillation
+Jester's Gambit
+Speaker's Decomposition
+Jester's Gambit
+Rotation Gambit II
+Prospector's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+Jester's Gambit
+Speaker's Decomposition
+Jester's Gambit
+Rotation Gambit II
+Prospector's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+Jester's Gambit
+Speaker's Decomposition
+Jester's Gambit
+Rotation Gambit II
+Prospector's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+Bookkeeper's Gambit: vv
+Vector Exaltation
+Jester's Gambit
+// Stack is now, [construct list], V1-2, C2, A2, (PRI)
+// Now time to assemble another list in the form of, [A2,B2,C2,V1-2], B2 is just Y+
+Bookkeeper's Gambit: v
+Jester's Gambit
+Rotation Gambit
+Vector Reflection +Y
+Jester's Gambit
+// Stack is now, A2, B2, C2, V1-2, (PRI)
+Numerical Reflection: 4
+Flock's Gambit
+Retrograde Purification
+// Stack is now, [A2,B2,C2,V1-2], (PRI)
+// Time to find the FIRST component of the basis changed V1, VF. The z component.
+Gemini Decomposition
+Numerical Reflection: 3
+Selection Distillation
+Jester's Gambit
+Gemini Decomposition
+Numerical Reflection: 2
+Selection Distillation
+Jester's Gambit
+Rotation Gambit II
+// Stack is now, C2, V1-2, [A2,B2,C2,V1-2], (PRI)
+// Now time to find both of their z components
+Vector Disintegration
+Bookkeeper's Gambit: -vv
+// Stack is now, C2.z, V1-2, ...
+Jester's Gambit
+Vector Disintegration
+Bookkeeper's Gambit: -vv
+// Stack is now, V1-2.z, C2.z, ...
+Jester's Gambit
+Division Distillation
+// We have obtained the z component of VF
+// Stack is now, VF.z, [A2,B2,C2,V1-2], (PRI)
+Jester's Gambit
+// Time to find the x component of VF. We need a new set of construct vectors, but, finding them wont be hellish this time since B2 is just Y+, and thus B2-C
+// Still gonna be painful though. Lets start with C2-C
+Gemini Decomposition
+Numerical Reflection: 2
+Selection Distillation
+Vector Disintegration
+// Stack is now, C2.z, C2.y, C2.x ,[A2,B2,C2,V1-2], VF.Z, (PRI)
+// We need to make C2.y 0, combine them and then normalize them.
+Jester's Gambit
+Bookkeeper's Gambit: v
+Numerical Reflection: 0
+Jester's Gambit
+Vector Exaltation
+Gemini Decomposition
+Length Purification
+Division Distillation
+// Stack is now, C2-C, [A2,B2,C2,V1-2], VF.Z, (PRI)
+// Now lets get A2-C. We will first need to do this same process to it, but then gram schmidt with C2-C
+Gemini Decomposition
+Rotation Gambit II
+Prospector's Gambit
+Numerical Reflection: 0
+Selection Distillation
+// Stack is now, A2, C2-C, [A2,B2,C2,V1-2], C2-C, VF.Z, (PRI)
+// 0 the y first.
+Vector Disintegration
+Jester's Gambit
+Bookkeeper's Gambit: v
+Numerical Reflection: 0
+Jester's Gambit
+Vector Exaltation
+Gemini Decomposition
+Length Purification
+Division Distillation
+// Stack is now, A2.5, C2-C ...
+Gemini Decomposition
+Rotation Gambit II
+// Stack is now, A2.5, C2-C, A2.5
+// Now we do the gram schmidt
+Jester's Gambit
+// Stack is now, C2-C, A2.5, A2.5
+Gemini Decomposition
+Rotation Gambit II
+Multiplicative Distillation
+Prospector's Gambit
+Gemini Decomposition
+Multiplicative Distillation
+Division Distillation
+Multiplicative Distillation
+// Stack is now, A2-P, A2.5
+Numerical Reflection: -1
+Multiplicative Distillation
+Additive Distillation
+// Stack is now, A2-C, now time to normalize it
+Gemini Decomposition
+Length Purification
+Division Distillation
+// Stack is now, A2-C, [A2,B2,C2,V1-2], C2-C, VF.Z, (PRI)
+// Time to make our new construct list, A2-C, B2-C, C2-C
+Rotation Gambit
+Jester's Gambit
+Vector Reflection +Y
+Jester's Gambit
+// Stack is now, A2-C, B2-C, C2-C, ...
+Numerical Reflection: 3
+Flock's Gambit
+Retrograde Purification
+// Stack is now, [A2-C,B2-C,C2-C], [A2,B2,C2,V1-2], VF.Z, (PRI)
+// Now we only need to basis change 2 vectors, V1-2 and A2
+Prospector's Gambit
+Numerical Reflection: 3
+Selection Distillation
+Prospector's Gambit
+Jester's Gambit
+// Time to basis change V1-2.
+// Stack is now, V1-2 ,[A2-C,B2-C,C2-C] ,[A2-C,B2-C,C2-C], [A2,B2,C2,V1-2], VF.Z, (PRI)
+Jester's Gambit
+Speaker's Decomposition
+Jester's Gambit
+Rotation Gambit II
+Prospector's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+Jester's Gambit
+Speaker's Decomposition
+Jester's Gambit
+Rotation Gambit II
+Prospector's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+Jester's Gambit
+Speaker's Decomposition
+Jester's Gambit
+Rotation Gambit II
+Prospector's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+Bookkeeper's Gambit: vv
+Vector Exaltation
+// Stack is now, V1-3, [A2-C,B2-C,C2-C], [A2,B2,C2,V1-2], VF.Z, (PRI)
+// Now time for A2
+Rotation Gambit II
+Prospector's Gambit
+Numerical Reflection: 0
+Selection Distillation
+// Stack is now, A2, [A2-C,B2-C,C2-C], [A2,B2,C2,V1-2], V1-3, VF.Z, (PRI)
+Jester's Gambit
+Speaker's Decomposition
+Jester's Gambit
+Rotation Gambit II
+Prospector's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+Jester's Gambit
+Speaker's Decomposition
+Jester's Gambit
+Rotation Gambit II
+Prospector's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+Jester's Gambit
+Speaker's Decomposition
+Jester's Gambit
+Rotation Gambit II
+Prospector's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+Bookkeeper's Gambit: vv
+Vector Exaltation
+// Stack is now, A3, [A2,B2,C2,V1-2], V1-3, VF.Z, (PRI)
+Rotation Gambit
+Jester's Gambit
+// Stack is now, A3, V1-C, [A2,B2,C2,V1-2], VF.Z, (PRI)
+// Now time to find VF.X!
+Vector Disintegration
+Bookkeeper's Gambit: vv-
+Jester's Gambit
+Vector Disintegration
+Bookkeeper's Gambit: vv-
+Jester's Gambit
+Division Distillation
+// We found VF.X!
+// Stack is now, VF.X, [A2,B2,C2,V1-2], VF.Z, (PRI)
+// We now need to find VF.Y
+// For this we will construct R1, a partially finished vector composed of (VF.X * A2) + (VF.Z * C2)
+// The reason we did not construct this before was, well, such a vector coincided with either one of our basis vectors previously. So we could just use those instead.
+Jester's Gambit
+Prospector's Gambit
+// Stack is now VF.X, [A2,B2,C2,V1-2], VF.X, VF.Z, (PRI)
+Prospector's Gambit
+Numerical Reflection: 0
+Selection Distillation
+Multiplicative Distillation
+// Stack is now, R1.P1, [A2,B2,C2,V1-2], VF.X, VF.Z, (PRI) 
+// We now need to reach VF.Z... This is awkward.
+Jester's Gambit
+// Push R1.P1 down first.
+Numerical Reflection: 3
+Flock's Gambit
+Prospector's Gambit
+Integration Distillation
+Flock's Disintegration
+// Stack is now, VF.Z, [A2,B2,C2,V1-2], R1.P1, VF.X, VF.Z, (PRI) 
+// I did not update my VSCode hexcasting addon yet okay? Excuse the fucked up stack manip
+Prospector's Gambit
+Numerical Reflection: 2
+Selection Distillation
+Multiplicative Distillation
+// We have obtained R1.P2
+// Stack is now, R1.P2, [A2,B2,C2,V1-2], V1.P1, ...
+// We now need to add them together
+Rotation Gambit
+
