@@ -109,6 +109,7 @@ Rotation Gambit
 // Now lets package em up into a list. 
 Numerical Reflection: 3
 Flock's Gambit
+Retrograde Purification
 // Now time to change the basis of A, C and V1!
 // A first, it will be called A2 after this
 Gemini Decomposition
@@ -187,6 +188,7 @@ Gemini Decomposition
 Muninn's Reflection
 Numerical Reflection: 3
 Selection Distillation
+// Select ^ 
 Jester's Gambit
 Speaker's Decomposition
 Jester's Gambit
@@ -208,6 +210,7 @@ Rotation Gambit II
 Prospector's Gambit
 Multiplicative Distillation
 Rotation Gambit II
+// Basis change ^
 Bookkeeper's Gambit: vv
 Vector Exaltation
 Jester's Gambit
@@ -236,11 +239,11 @@ Rotation Gambit II
 // Stack is now, C2, V1-2, [A2,B2,C2,V1-2], (PRI)
 // Now time to find both of their z components
 Vector Disintegration
-Bookkeeper's Gambit: -vv
+Bookkeeper's Gambit: vv-
 // Stack is now, C2.z, V1-2, ...
 Jester's Gambit
 Vector Disintegration
-Bookkeeper's Gambit: -vv
+Bookkeeper's Gambit: vv-
 // Stack is now, V1-2.z, C2.z, ...
 Jester's Gambit
 Division Distillation
@@ -382,10 +385,10 @@ Jester's Gambit
 // Stack is now, A3, V1-C, [A2,B2,C2,V1-2], VF.Z, (PRI)
 // Now time to find VF.X!
 Vector Disintegration
-Bookkeeper's Gambit: vv-
+Bookkeeper's Gambit: -vv
 Jester's Gambit
 Vector Disintegration
-Bookkeeper's Gambit: vv-
+Bookkeeper's Gambit: -vv
 Jester's Gambit
 Division Distillation
 // We found VF.X!
@@ -525,10 +528,10 @@ Vector Exaltation
 // Stack is now, V1-3, [A2,B2,C2,V1-2], B3, VF.X, VF.Z, (PRI)
 Rotation Gambit
 Vector Disintegration
-Bookkeeper's Gambit: -vv
+Bookkeeper's Gambit: vv-
 Jester's Gambit
 Vector Disintegration
-Bookkeeper's Gambit: -vv
+Bookkeeper's Gambit: vv-
 Jester's Gambit
 Division Distillation
 // Finally, we have, VF.Y
