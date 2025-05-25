@@ -1,0 +1,114 @@
+// Based on https://www.desmos.com/3d/f8suvijh8u the hyper-optimized section.
+// Input sequence on the stack, from top to bottom:
+// A, B, C, V1
+
+Prospector's Gambit
+Prospector's Gambit
+// Stack is now, A,B, A,B,C,V1
+Gemini Decomposition
+Rotation Gambit II
+// Gram Schmidt Process, v1 being projected, v2 being projected onto, inputs: v1, v2, v1
+// Stack is now, A,B,A, A,B,C,V1
+Power Distillation
+Numerical Reflection: -1
+Multiplicative Distillation
+Additive Distillation
+// Stack is now A-2, A,B,C,V1
+Numerical Reflection: 3
+Fisherman's Gambit II
+// Stack is now, B,A-2, A,B,C,V1
+Numerical Reflection: 5
+Fisherman's Gambit II
+// Stack is now, C,B,A-2, ...
+Gemini Decomposition
+Rotation Gambit II
+Power Distillation
+Numerical Reflection: -1
+Multiplicative Distillation
+Additive Distillation
+// Stack is now, C-2,A-2, A,B,C,V1
+Dioscuri Gambit
+// Stack is now, C-2,A-2,C-2,A-2, ...
+Gemini Decomposition
+Rotation Gambit II
+Power Distillation
+Numerical Reflection: -1
+Multiplicative Distillation
+Additive Distillation
+// Stack is now, C-3, C-2,A-2, ...
+Rotation Gambit II
+Jester's Gambit
+// Stack is now, A-2,C-2, C-3
+Gemini Decomposition
+Rotation Gambit II
+Power Distillation
+Numerical Reflection: -1
+Multiplicative Distillation
+Additive Distillation
+// Stack is now, A-3, C-3, A,B,C,V1
+Gemini Decomposition
+// Stack is now, A-3,A-3, C-3, A,B,C,V1
+Numerical Reflection: 7
+Fisherman's Gambit II
+Multiplicative Distillation
+// Stack is now, V1.a, A-3, C-3, A,B,C,V1
+Jester's Gambit
+Numerical Reflection: 4
+Fisherman's Gambit II
+Multiplicative Distillation
+// Stack is now, A.a, V1.a, C-3, A,B,C,V1
+Division Distillation
+// Stack is now VF.x, C-3, A,B,C,V1
+Jester's Gambit
+Gemini Decomposition
+Numerical Reflection: 7
+Fisherman's Gambit II
+// Stack is now, V1, C-3, C-3, VF.x, A,B,C,V1
+Multiplicative Distillation
+// Stack is now, V1.c, C-3, VF.x, A,B,C,V1
+Jester's Gambit
+Numerical Reflection: 6
+Fisherman's Gambit II
+Multiplicative Distillation
+// Stack is now, C.c, V1.c, VF.x, ...
+Division Distillation
+// Stack is now, VF.z, VF.x, A,B,C,V1
+Dioscuri Gambit
+// Stack is now, VF.z, VF.x, VF.z, VF.x, A,B,C,V1
+Numerical Reflection: 7
+Fisherman's Gambit II
+Multiplicative Distillation
+// Stack is now, R1.c, VF.x, VF.z, VF.x, A,B,C,V1
+Jester's Gambit
+Numerical Reflection: 5
+Fisherman's Gambit II
+Multiplicative Distillation
+// Stack is now, R1.a, R1.c, ...
+Additive Distillation
+// Stack is now, R1, VF.z, VF.x, A,B,C,V1
+Numerical Reflection: 5
+Fisherman's Gambit II
+// Stack is now, B, R1, ...
+Gemini Decomposition
+Rotation Gambit II
+// Stack is now, B, R1, B, ...
+Power Distillation
+Numerical Reflection: -1
+Multiplicative Distillation
+Additive Distillation
+// Stack is now, B-3, VF.z, VF.x, A,B,C,V1
+Gemini Decomposition
+Numerical Reflection: 8
+Fisherman's Gambit II
+// Stack is now, V1, B-3, B-3, ...
+Multiplicative Distillation
+// Stack is now, V1.b, B-3, VF.z, VF.x, A,B,C,V1
+Jester's Gambit
+Numerical Reflection: 6
+Fisherman's Gambit II
+Multiplicative Distillation
+// Stack is now, B.b, V1.b, VF.z, VF.x, A,B,C,V1
+Division Distillation
+// Stack is now, VF.y, VF.z, VF.x, ...
+Jester's Gambit
+Vector Exaltation
