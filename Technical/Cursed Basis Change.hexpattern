@@ -216,10 +216,21 @@ Vector Exaltation
 Jester's Gambit
 // Stack is now, [construct list], V1-2, C2, A2, (PRI)
 // Now time to assemble another list in the form of, [A2,B2,C2,V1-2], B2 is just Y+
+// Okay slight problem here, that I noticed so late lmao.
+// So I made the naive assumption that, after aligning B with the Y axis, we could just substitute in Y+ for B
+// We can but, only if B is of length 1. Otherwise it doesnt work. So the fix is simple, multiply the Y+ with the length of B.
+// There is another place where Y+ is substituted in for B, and while for that place it doesnt matter, Ill still fix it there too anyways.
 Bookkeeper's Gambit: v
 Jester's Gambit
 Rotation Gambit
 Vector Reflection +Y
+// Fix start
+Muninn's Reflection
+Numerical Reflection: 1
+Selection Distillation
+Length Purification
+Multiplicative Distillation
+// Fix end 
 Jester's Gambit
 // Stack is now, A2, B2, C2, V1-2, (PRI)
 Numerical Reflection: 4
@@ -312,6 +323,13 @@ Division Distillation
 Rotation Gambit
 Jester's Gambit
 Vector Reflection +Y
+// Fix start
+Muninn's Reflection
+Numerical Reflection: 1
+Selection Distillation
+Length Purification
+Multiplicative Distillation
+// Fix end
 Jester's Gambit
 // Stack is now, A2-C, B2-C, C2-C, ...
 Numerical Reflection: 3
