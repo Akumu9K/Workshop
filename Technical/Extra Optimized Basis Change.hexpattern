@@ -1,0 +1,76 @@
+// This is a slightly modified version of the Hyper-Optimized method,
+// Relying not on constructed vectors but rather simple orthogonalization.
+// Because of the presence of the cross product in 3 dimensional space,
+// It is more optimized than the Hyper-Optimized method, but only in 3D space.
+
+// Input Sequence on the stack, from top to bottom:
+
+// A, B, C, V1
+
+// Note: Cross product is not commutative. 
+// For this to work, the components need to be in the order of, C, B, A ... on the stack, from top to bottom.
+// So our three operations will be, BA, AC and CB.
+// Otherwise it reflects the vector along one axis and thats bad 
+
+Numerical Reflection: 3
+Fisherman's Gambit II
+Prospector's Gambit
+// Stack is now, A,C, A,B,C,V1
+Division Distillation
+Gemini Decomposition
+// Stack is now, AC.cross, AC.cross, A,B,C,V1
+Numerical Reflection: 4
+Fisherman's Gambit II
+Multiplicative Distillation
+Jester's Gambit
+// Stack is now, AC.cross, AC-B.dot, A,B,C,V1
+Numerical Reflection: 6
+Fisherman's Gambit II
+Multiplicative Distillation
+// Stack is now, AC-V1.dot, AC-B.dot, ...
+Jester's Gambit
+Division Distillation
+// Stack is now, VF.y, A,B,C,V1
+// Now we just repeat till we get VF.x and VF.z, and then rearrange and vector exalt.
+Numerical Reflection: 2
+Fisherman's Gambit II
+Numerical Reflection: 4
+Fisherman's Gambit II
+// Stack is now, B,A, VF.y, ...
+Division Distillation
+Gemini Decomposition
+// Stack is now, BA.cross, BA.cross, VF.y, A,B,C,V1
+Numerical Reflection: 6
+Fisherman's Gambit II
+Multiplicative Distillation
+Jester's Gambit
+// Stack is now, BA.cross, BA-C.dot, VF.y, A,B,C,V1
+Numerical Reflection: 7
+Fisherman's Gambit II
+Multiplicative Distillation
+// Stack is now, BA-V1.dot, BA-C.dot, ...
+Jester's Gambit
+Division Distillation
+// Stack is now, VF.z, VF.y, A,B,C,V1
+Numerical Reflection: 4
+Fisherman's Gambit II
+Numerical Reflection: 6
+Fisherman's Gambit II
+// Stack is now, C,B, VF.z, VF.y, A,B,C,V1
+Division Distillation
+Gemini Decomposition
+// Stack is now, CB.cross, CB.cross, VF.z, VF.y, A,B,C,V1
+Numerical Reflection: 5
+Fisherman's Gambit II
+Multiplicative Distillation
+Jester's Gambit
+// Stack is now, CB.cross, CB-A.dot, VF.z, VF.y, A,B,C,V1
+Numerical Reflection: 8
+Fisherman's Gambit II
+Multiplicative Distillation
+// Stack is now, CB-V1.dot, CB-A.dot, ...
+Jester's Gambit
+Division Distillation
+// Stack is now, VF.x, VF.z, VF.y, A,B,C,V1
+Rotation Gambit II
+Vector Exaltation
