@@ -87,35 +87,6 @@
     }
     Augur's Exaltation
     Hermes' Gambit
-    // Run Function if State On
-    Muninn's Reflection
-    {
-        (RAM Location (ON/OFF Status) (Integer))
-    }
-    Flock's Disintegration
-    Selection Distillation
-    {
-        (Input "on" (Iota))
-    }
-    Flock's Disintegration
-    Equality Distillation
-    {
-        {
-            (Akashic Library Vector (Vector))
-        }
-        Flock's Disintegration
-        {
-            (Akashic Library Pattern (Pattern))
-        }
-        Flock's Disintegration
-        Akasha's Distillation
-        Hermes' Gambit
-    }
-    {
-        (Empty)
-    }
-    Augur's Exaltation
-    Hermes' Gambit
     // Lock Reset
     Muninn's Reflection
     {
@@ -146,6 +117,35 @@
         Numerical Reflection: 1
         Subtractive Distillation
         Surgeon's Exaltation
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // Run Function if State On
+    Muninn's Reflection
+    {
+        (RAM Location (ON/OFF Status) (Integer))
+    }
+    Flock's Disintegration
+    Selection Distillation
+    {
+        (Input "on" (Iota))
+    }
+    Flock's Disintegration
+    Equality Distillation
+    {
+        {
+            (Akashic Library Vector (Vector))
+        }
+        Flock's Disintegration
+        {
+            (Akashic Library Pattern (Pattern))
+        }
+        Flock's Disintegration
+        Akasha's Distillation
+        Hermes' Gambit
+    }
+    {
+        (Empty)
     }
     Augur's Exaltation
     Hermes' Gambit
