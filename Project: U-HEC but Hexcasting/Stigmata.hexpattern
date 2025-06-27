@@ -54,7 +54,7 @@
     // Stack Clean-Up Done.
 
     // Next, RM RAM Repackaging
-    Numerical Reflection: 69420
+    Numerical Reflection: 79
     // Location of the RM RAM in the reassembled quine, which is given by:
     // Length of the Individual Spell Copy + 1 + Reassembly Process Length + 2
     Muninn's Reflection
@@ -67,7 +67,7 @@
     // If TRUE, the spell will enqueue, if FALSE, it will not.
     Muninn's Reflection
     // The number corresponds to the index in which the value is stored.
-    Numerical Reflection: 42069
+    Numerical Reflection: 0
     Selection Distillation
     True Reflection
     Equality Distillation
