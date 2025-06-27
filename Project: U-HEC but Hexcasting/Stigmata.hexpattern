@@ -1,0 +1,134 @@
+{
+    [Placeholder, Replace with the spell]
+    // Reassembly Section, duplicates the copy with gemini
+    // Breaks apart the first copy and puts intro and retro at its beginning and end 
+    // Then breaks apart the second copy and packages them together into the [{SPELL}SPELL] structure.
+    Gemini Decomposition
+    Jester's Gambit
+    {
+        {
+        }
+    }
+    Numerical Reflection: 0
+    Selection Distillation
+    Jester's Gambit
+    Flock's Disintegration
+    {
+        {
+        }
+    }
+    Numerical Reflection: 1
+    Selection Distillation
+    Flock's Reflection
+    Fisherman's Gambit
+    Flock's Disintegration
+    Flock's Reflection
+    Flock's Gambit
+    // Reassembly end, all the important machinery can come after this, and stack size is constant. 
+
+    // First, restoration of the Ravenmind RAM
+    {
+        [Ravenmind RAM]
+    }
+    Flock's Disintegration
+    Huginn's Gambit
+
+    // Payload section, where the majority of the quine will reside, and be compressed with jump iotas.
+    // The RM RAM is utilized to save values that are relevant to the spells in the payload between each iteration.
+    // The total payload is compressed in this recursive structure: [JUMP] = [Spell, [JUMP]]
+    // The very last jump iota needs to contain a hermes inside it, to return back to the current continuation.
+    {
+        [JUMP]
+    }
+    Iris' Gambit
+    // End of payload, RM RAM Repackaging and Enqueueing Process Start.
+
+    // The stack needs to only be occupied by the reassembled quine, so we can clean it first
+    Flock's Reflection
+    Numerical Reflection: 1
+    Subtractive Distillation
+    Flock's Gambit
+    Bookkeeper's Gambit: v
+    // Stack Clean-Up Done.
+
+    // Next, RM RAM Repackaging
+    Numerical Reflection: 69420
+    // Location of the RM RAM in the reassembled quine, which is given by:
+    // Length of the Individual Spell Copy + 1 + Reassembly Process Length + 2
+    Muninn's Reflection
+    Surgeon's Exaltation
+    // RM RAM Repackaging Done. 
+
+    // Next, Enqueueing Process.
+    // While the Start/Stop trinket can stop the quine, and it can also be manually stopped with a staff, an internal stop method is still useful.
+    // For this we will use the RM RAM one last time. We will store a TRUE or FALSE value in a specific index
+    // If TRUE, the spell will enqueue, if FALSE, it will not.
+    Muninn's Reflection
+    // The number corresponds to the index in which the value is stored.
+    Numerical Reflection: 42069
+    Selection Distillation
+    True Reflection
+    Equality Distillation
+    {
+        // Enqueue logic.
+        Numerical Reflection: 1
+        {
+            (Label Iota (Pattern))
+        }
+        Flock's Disintegration
+        Enqueue
+    }
+    {
+        (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+// Quine assembly, which will replace the placeholder with a copy of the spell.
+Gemini Decomposition
+Speaker's Decomposition
+Bookkeeper's Gambit: v
+Numerical Reflection: 0
+Jester's Gambit
+Surgeon's Exaltation
+// At the end, the structure will look like [{SPELL}SPELL]
+
+// Spell for the Start/Stop trinket of the quine, with user verification.
+{
+    {
+        (Owner Entity Iota (Truename))
+    }
+    Flock's Disintegration
+    Mind's Reflection
+    Equality Distillation
+    {
+        {
+            (Label Iota (Pattern))
+        }
+        Flock's Disintegration
+        Program Purification II
+        Nullary Reflection
+        Equality Distillation
+        {
+            {
+                [QUINE]
+            }
+            Flock's Disintegration
+            Hermes' Gambit
+        }
+        {
+            {
+                (Label Iota (Pattern))
+            }
+            Flock's Disintegration
+            Dequeue
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {
+        (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
