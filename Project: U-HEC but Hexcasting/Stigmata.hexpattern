@@ -93,6 +93,7 @@ Jester's Gambit
 Surgeon's Exaltation
 // At the end, the structure will look like [{SPELL}SPELL]
 
+
 // Spell for the Start/Stop trinket of the quine, with user verification.
 {
     {
@@ -131,4 +132,29 @@ Surgeon's Exaltation
     }
     Augur's Exaltation
     Hermes' Gambit
+}
+
+
+// Macros for interacting with the RM RAM
+
+// Read 
+{
+    Muninn's Reflection
+    {
+        (RAM Location (Number))
+    }
+    Flock's Disintegration
+    Selection Distillation
+}
+
+// Write
+{
+    Muninn's Reflection
+    {
+        (RAM Location (Number))
+    }
+    Flock's Disintegration
+    Rotation Gambit
+    Surgeon's Exaltation
+    Huginn's Gambit
 }
