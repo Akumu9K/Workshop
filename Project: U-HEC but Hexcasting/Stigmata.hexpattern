@@ -41,6 +41,8 @@
         [JUMP]
     }
     Iris' Gambit
+    // Also the continuation produced by the next iris gambit that is required for the section after the payload 
+    // Can be saved in the RM RAM to keep it safe, and taken out and activated at the end of the payload.
     // End of payload, RM RAM Repackaging and Enqueueing Process Start.
 
     // The stack needs to only be occupied by the reassembled quine, so we can clean it first
