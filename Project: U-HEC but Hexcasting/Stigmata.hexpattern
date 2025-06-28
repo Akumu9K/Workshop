@@ -1,5 +1,6 @@
 {
-    [Placeholder, Replace with the spell]
+    // "Placeholder" will be replaced with a copy of the spell, just without a placeholder of its own.
+    (Placeholder (Any Iota))
     // Reassembly Section, duplicates the copy with gemini
     // Breaks apart the first copy and puts intro and retro at its beginning and end 
     // Then breaks apart the second copy and packages them together into the [{SPELL}SPELL] structure.
