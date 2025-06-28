@@ -45,7 +45,7 @@
         [JUMP]
     }
     Iris' Gambit
-    // Also the continuation produced by the next iris gambit that is required for the section after the payload 
+    // The continuation produced by the next iris gambit that is required for the section after the payload, 
     // Can be saved in the RM RAM to keep it safe, and taken out and activated at the end of the payload.
     // End of Payload.
 
@@ -113,6 +113,7 @@ Surgeon's Exaltation
        V        "The quine section, assembles the copy into a form that can reassemble itself in the next iteration"
      "Copy of the whole spell without the placeholder, thus the structure is the same as above except without [SPELL]"
 */
+
 
 // Spell for the Start/Stop trinket of the quine, with user verification.
 {
