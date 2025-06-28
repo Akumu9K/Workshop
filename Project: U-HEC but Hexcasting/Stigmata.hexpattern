@@ -28,7 +28,7 @@
 
     // First, restoration of the Ravenmind RAM
     {
-        [Ravenmind RAM]
+        (Ravenmind RAM (List Iota))
     }
     Flock's Disintegration
     Huginn's Gambit
@@ -46,6 +46,7 @@
     // End of payload, RM RAM Repackaging and Enqueueing Process Start.
 
     // The stack needs to only be occupied by the reassembled quine, so we can clean it first
+    // Unnecessary if the cleanup is placed inside the payload [JUMP]
     Flock's Reflection
     Numerical Reflection: 1
     Subtractive Distillation
@@ -114,7 +115,7 @@ Surgeon's Exaltation
         Equality Distillation
         {
             {
-                [QUINE]
+                (QUINE (List Iota))
             }
             Flock's Disintegration
             Hermes' Gambit
@@ -160,3 +161,56 @@ Surgeon's Exaltation
     Surgeon's Exaltation
     Huginn's Gambit
 }
+
+
+// Iris Compactification for the Payload 
+
+// Build-Up Section:
+
+{
+    {
+        (Empty)
+    }
+    Iris' Gambit
+    {
+        (PAYLOAD (List Iota))
+    }
+    Flock's Disintegration
+    Hermes' Gambit
+    {
+        [JUMP]
+    }
+    Flock's Disintegration
+    Hermes' Gambit
+}
+Hermes' Gambit
+
+// End Section:
+
+{
+    {
+        (Empty)
+    }
+    Iris' Gambit
+    {
+        (PAYLOAD (List Iota))
+    }
+    Flock's Disintegration
+    Hermes' Gambit
+    // Stack Clean-Up Section
+    Flock's Reflection
+    Numerical Reflection: 2
+    Subtractive Distillation
+    Flock's Gambit
+    Bookkeeper's Gambit: v
+    // Stack Clean-Up End
+    // Return to original continuation
+    Hermes' Gambit
+}
+
+// Simplified Structure: [Spell,[JUMP]]
+// Recursively apply in the form of [Spell,[Spell,[Spell,Spell...]]]
+
+// Build from last section to the first on the payload, 
+// Starting with the end section, and iterating with the build up section,
+// Each time replacing [JUMP] with the jump iota obtained from the last iteration.

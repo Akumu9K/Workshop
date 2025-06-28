@@ -1,9 +1,15 @@
+// Build-Up Section:
+
 {
     {
         (Empty)
     }
     Iris' Gambit
-    [PAYLOAD]
+    {
+        (PAYLOAD (List Iota))
+    }
+    Flock's Disintegration
+    Hermes' Gambit
     {
         [JUMP]
     }
@@ -11,3 +17,32 @@
     Hermes' Gambit
 }
 Hermes' Gambit
+
+// End Section:
+
+{
+    {
+        (Empty)
+    }
+    Iris' Gambit
+    {
+        (PAYLOAD (List Iota))
+    }
+    Flock's Disintegration
+    Hermes' Gambit
+    // Stack Clean-Up Section
+    Flock's Reflection
+    Numerical Reflection: 2
+    Subtractive Distillation
+    Flock's Gambit
+    Bookkeeper's Gambit: v
+    // Stack Clean-Up End
+    // Return to original continuation
+    Hermes' Gambit
+}
+
+// Simplified Structure: [Spell,[JUMP]]
+// Recursively apply in the form of [Spell,[Spell,[Spell,Spell...]]]
+
+// Build from last section to the first on the payload,
+// Each time replacing [JUMP] with the jump iota obtained from the last iteration.
