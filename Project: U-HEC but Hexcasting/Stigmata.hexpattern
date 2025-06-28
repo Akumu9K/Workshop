@@ -154,12 +154,14 @@ Surgeon's Exaltation
 // Write
 {
     Muninn's Reflection
+    // Actual write section, can be duplicated multiple times to write multiple things before saving into the RAM
     {
         (RAM Location (Number))
     }
     Flock's Disintegration
     Rotation Gambit
     Surgeon's Exaltation
+    // End of write section
     Huginn's Gambit
 }
 
