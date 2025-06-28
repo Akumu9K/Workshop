@@ -25,15 +25,18 @@
     Flock's Disintegration
     Flock's Reflection
     Flock's Gambit
-    // Reassembly end, all the important machinery can come after this, and stack size is constant. 
+    // End of Reassembly.
+    // All the important machinery can come after this, and stack size is constant. 
 
-    // First, restoration of the Ravenmind RAM
+    // Ravenmind RAM Restoration
     {
         (Ravenmind RAM (List Iota))
     }
     Flock's Disintegration
     Huginn's Gambit
+    // End of Ravenmind RAM Restoration.
 
+    // Payload 
     // Payload section, where the majority of the quine will reside, and be compressed with jump iotas.
     // The RM RAM is utilized to save values that are relevant to the spells in the payload between each iteration.
     // The total payload is compressed in this recursive structure: [JUMP] = [Spell, [JUMP]]
@@ -44,8 +47,9 @@
     Iris' Gambit
     // Also the continuation produced by the next iris gambit that is required for the section after the payload 
     // Can be saved in the RM RAM to keep it safe, and taken out and activated at the end of the payload.
-    // End of payload, RM RAM Repackaging and Enqueueing Process Start.
+    // End of Payload.
 
+    // Stack Clean-Up
     // The stack needs to only be occupied by the reassembled quine, so we can clean it first
     // Unnecessary if the cleanup is placed inside the payload [JUMP]
     Flock's Reflection
@@ -53,17 +57,17 @@
     Subtractive Distillation
     Flock's Gambit
     Bookkeeper's Gambit: v
-    // Stack Clean-Up Done.
+    // End of Stack Clean-Up.
 
-    // Next, RM RAM Repackaging
+    // RM RAM Repackaging
     Numerical Reflection: 79
     // Location of the RM RAM in the reassembled quine, which is given by:
     // Length of the Individual Spell Copy + 1 + Reassembly Process Length + 2
     Muninn's Reflection
     Surgeon's Exaltation
-    // RM RAM Repackaging Done. 
+    // End of RM RAM Repackaging.
 
-    // Next, Enqueueing Process.
+    // Enqueueing Process.
     // While the Start/Stop trinket can stop the quine, and it can also be manually stopped with a staff, an internal stop method is still useful.
     // For this we will use the RM RAM one last time. We will store a TRUE or FALSE value in a specific index
     // If TRUE, the spell will enqueue, if FALSE, it will not.
@@ -87,6 +91,7 @@
     }
     Augur's Exaltation
     Hermes' Gambit
+    // End of Enqueueing Process.
 }
 // Quine assembly, which will replace the placeholder with a copy of the spell.
 Gemini Decomposition
@@ -96,7 +101,18 @@ Numerical Reflection: 0
 Jester's Gambit
 Surgeon's Exaltation
 // At the end, the structure will look like [{SPELL}SPELL]
-
+// The complete structure is as follows:
+// [[SPELL], Reassembly Section, Ravenmind RAM Restoration, Payload, Stack Clean-Up, RM RAM Repackaging, Enqueueing Process]
+/*     ^            ^                       ^                  ^           ^                  ^                ^ 
+       I            I                       I                  I           I                  I                V
+       I            I                       I                  I           I                  V            "Enqueues the quine for the next iteration"
+       I            I                       I                  I           V             "Packages up the RM RAM into the quine to be restored in the next iteration"
+       I            I                       I                  V      "Cleans up the stack of everything except the quine"
+       I            I                       V              "Executes all the functions of the quine"
+       I            V                   "Restores the RM RAM from the previous iteration"
+       V        "The quine section, assembles the copy into a form that can reassemble itself in the next iteration"
+     "Copy of the whole spell without the placeholder, thus the structure is the same as above except without [SPELL]"
+*/
 
 // Spell for the Start/Stop trinket of the quine, with user verification.
 {
@@ -169,7 +185,6 @@ Surgeon's Exaltation
 // Iris Compactification for the Payload 
 
 // Build-Up Section:
-
 {
     {
         (Empty)
@@ -189,7 +204,6 @@ Surgeon's Exaltation
 Hermes' Gambit
 
 // End Section:
-
 {
     {
         (Empty)
