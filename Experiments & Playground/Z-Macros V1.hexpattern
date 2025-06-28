@@ -1,3 +1,18 @@
-#def(compass)(
+#def(TestCompass)(
     Compass' Purification
 )
+
+$TestCompass
+
+#def(fastif)(
+    {
+        <1>
+    }
+    {
+        <2>
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+)
+
+$fastif
