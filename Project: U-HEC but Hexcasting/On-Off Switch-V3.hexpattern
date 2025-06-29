@@ -1,0 +1,146 @@
+{
+    // Lock IO
+    {
+        (Lock IO (Property))
+    }
+    Flock's Disintegration
+    Gemini Decomposition
+    Observation Purification
+    False Reflection
+    Equality Distillation
+    {
+        (Empty)
+    }
+    {
+        False Reflection
+        Schrödinger's Gambit
+        Muninn's Reflection
+        {
+            (RAM Location (Lock Status) (Integer))
+        }
+        Flock's Disintegration
+        True Reflection
+        Surgeon's Exaltation
+        {
+            (RAM Location (Lock Time in Ticks) (Integer))
+        }
+        Flock's Disintegration
+        Numerical Reflection: 50
+        Surgeon's Exaltation
+        Huginn's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // Update ON/OFF Switch
+    // Check if Readable
+    Auditor's Reflection
+    {
+        // Check if Unlocked
+        Muninn's Reflection
+        {
+            (RAM Location (Lock Status) (Integer))
+        }
+        Flock's Disintegration
+        Selection Distillation
+        True Reflection
+        Equality Distillation
+        {
+            // Check if Iota is one of the specified Input Iotas
+            Scribe's Reflection
+            {
+                (Input "on" (Any Iota))
+            }
+            Flock's Disintegration
+            Equality Distillation
+            Scribe's Reflection
+            {
+                (Input "off" (Any Iota))
+            }
+            Flock's Disintegration
+            Equality Distillation
+            Disjunction Distillation
+            {
+                // Save Iota to RAM
+                Muninn's Reflection
+                {
+                    (RAM Location (ON/OFF Status) (Integer))
+                }
+                Flock's Disintegration
+                Scribe's Reflection
+                Surgeon's Exaltation
+                Huginn's Gambit
+            }
+            {
+                (Empty)
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        {
+            (Empty)
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {
+        (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // Lock Reset
+    Muninn's Reflection
+    {
+        (RAM Location (Lock Time in Ticks) (Integer))
+    }
+    Flock's Disintegration
+    Selection Distillation
+    Numerical Reflection: 0
+    Equality Distillation
+    {
+        Muninn's Reflection
+        {
+            (RAM Location (Lock Status) (Integer))
+        }
+        Flock's Disintegration
+        False Reflection
+        Surgeon's Exaltation
+        Huginn's Gambit
+    }
+    {
+        Muninn's Reflection
+        {
+            (RAM Location (Lock Time in Ticks) (Integer))
+        }
+        Flock's Disintegration
+        Dioscuri Gambit
+        Selection Distillation
+        Numerical Reflection: 1
+        Subtractive Distillation
+        Surgeon's Exaltation
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // Run Function if State On
+    Muninn's Reflection
+    {
+        (RAM Location (ON/OFF Status) (Integer))
+    }
+    Flock's Disintegration
+    Selection Distillation
+    {
+        (Input "on" (Iota))
+    }
+    Flock's Disintegration
+    Equality Distillation
+    {
+        {
+            [JUMP]
+        }
+        Iris' Gambit
+    }
+    {
+        (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
