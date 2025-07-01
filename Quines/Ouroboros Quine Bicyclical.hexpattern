@@ -50,3 +50,130 @@ Numerical Reflection: 1
 Prospector's Gambit
 Surgeon's Exaltation
 
+// Structure:
+
+[
+    {
+        [
+            {
+                Bookkeeper's Gambit: -
+            }
+            Flock's Disintegration
+            {
+                [
+                    {
+                        [
+                            {
+                                Bookkeeper's Gambit: -
+                            }
+                            Flock's Disintegration
+                            Numerical Reflection: 1
+                            Prospector's Gambit
+                            Surgeon's Exaltation
+                            {
+                                {
+                                    Bookkeeper's Gambit: -
+                                }
+                                Flock's Disintegration
+                                {
+                                    Bookkeeper's Gambit: -
+                                }
+                                Flock's Disintegration
+                                Hermes' Gambit
+                            }
+                            Jester's Gambit
+                            Numerical Reflection: 5
+                            Jester's Gambit
+                            Surgeon's Exaltation
+                            Numerical Reflection: 1
+                            Jester's Gambit
+                            Surgeon's Exaltation
+                        ]
+                    }
+                    Flock's Disintegration
+                    Numerical Reflection: 1
+                    Prospector's Gambit
+                    Surgeon's Exaltation
+                    {
+                        {
+                            Bookkeeper's Gambit: -
+                        }
+                        Flock's Disintegration
+                        {
+                            Bookkeeper's Gambit: -
+                        }
+                        Flock's Disintegration
+                        Hermes' Gambit
+                    }
+                    Jester's Gambit
+                    Numerical Reflection: 5
+                    Jester's Gambit
+                    Surgeon's Exaltation
+                    Numerical Reflection: 1
+                    Jester's Gambit
+                    Surgeon's Exaltation
+                ]
+            }
+            Flock's Disintegration
+            Hermes' Gambit
+        ]
+    }
+    Flock's Disintegration
+    {
+        [
+            {
+                [
+                    {
+                        Bookkeeper's Gambit: -
+                    }
+                    Flock's Disintegration
+                    Numerical Reflection: 1
+                    Prospector's Gambit
+                    Surgeon's Exaltation
+                    {
+                        {
+                            Bookkeeper's Gambit: -
+                        }
+                        Flock's Disintegration
+                        {
+                            Bookkeeper's Gambit: -
+                        }
+                        Flock's Disintegration
+                        Hermes' Gambit
+                    }
+                    Jester's Gambit
+                    Numerical Reflection: 5
+                    Jester's Gambit
+                    Surgeon's Exaltation
+                    Numerical Reflection: 1
+                    Jester's Gambit
+                    Surgeon's Exaltation
+                ]
+            }
+            Flock's Disintegration
+            Numerical Reflection: 1
+            Prospector's Gambit
+            Surgeon's Exaltation
+            {
+                {
+                    Bookkeeper's Gambit: -
+                }
+                Flock's Disintegration
+                {
+                    Bookkeeper's Gambit: -
+                }
+                Flock's Disintegration
+                Hermes' Gambit
+            }
+            Jester's Gambit
+            Numerical Reflection: 5
+            Jester's Gambit
+            Surgeon's Exaltation
+            Numerical Reflection: 1
+            Jester's Gambit
+            Surgeon's Exaltation
+        ]
+    }
+    Flock's Disintegration
+    Hermes' Gambit
+]
