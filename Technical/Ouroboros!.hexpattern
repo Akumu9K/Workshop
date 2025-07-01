@@ -1,0 +1,173 @@
+A = [[[-]A]A]
+B = [[[-]B]B]
+
+// General Structure of the internal Quines:
+
+[
+    {
+        [
+            {
+                (PLACEHOLDER-INNER)
+            }
+            Flock's Disintegration
+            Numerical Reflection: 1
+            Prospector's Gambit
+            Surgeon's Exaltation
+        ]
+    }
+    Flock's Disintegration
+    Numerical Reflection: 1
+    Prospector's Gambit
+    Surgeon's Exaltation
+]
+
+// Ouroboros Structure:
+
+[
+    {
+        [
+            {
+                (PLACEHOLDER-INNER)
+            }
+            Flock's Disintegration
+            Numerical Reflection: 1
+            Prospector's Gambit
+            Surgeon's Exaltation
+        ]
+    }
+    Flock's Disintegration
+    Numerical Reflection: 1
+    Prospector's Gambit
+    Surgeon's Exaltation
+]
+
+
+
+
+
+
+
+// Ouroboros:
+
+{
+    {
+        [
+            {
+                PH-Placeholder
+            }
+            Flock's Disintegration
+            [
+                {
+                    [
+                        {
+                            (PH-Inner)
+                        }
+                        Flock's Disintegration
+                        Numerical Reflection: 1
+                        Prospector's Gambit
+                        Surgeon's Exaltation
+                    ]
+                }
+                Flock's Disintegration
+                Numerical Reflection: 1
+                Prospector's Gambit
+                Surgeon's Exaltation
+            ]
+            Hermes' Gambit
+        ]
+    }
+    Flock's Disintegration
+    [
+        {
+            [
+                {
+                    (PH-Inner)
+                }
+                Flock's Disintegration
+                Numerical Reflection: 1
+                Prospector's Gambit
+                Surgeon's Exaltation
+            ]
+        }
+        Flock's Disintegration
+        Numerical Reflection: 1
+        Prospector's Gambit
+        Surgeon's Exaltation
+        // E
+        {
+            {
+                (PH-Placeholder)
+            }
+            Flock's Disintegration
+            Bookkeeper's Gambit: -
+            Hermes' Gambit
+        }
+        Jester's Gambit
+        Numerical Reflection: 4
+        Jester's Gambit
+        Surgeon's Exaltation
+        // E
+        Numerical Reflection: 1
+        Jester's Gambit
+        Surgeon's Exaltation
+    ]
+    Hermes' Gambit
+}
+Hermes' Gambit
+
+
+
+// Ouroboros attempt 1:
+
+{
+    {
+        {
+            (PH-Placeholder
+            (PH-FlockDis
+            (PH-Quine
+            (PH-FlockDis
+            (PH-Hermes
+        }
+        Flock's Disintegration
+        [
+            {
+                [
+                    {
+                        (PH-Inner)
+                    }
+                    Flock's Disintegration
+                    Numerical Reflection: 1
+                    Prospector's Gambit
+                    Surgeon's Exaltation
+                ]
+            }
+            Flock's Disintegration
+            Numerical Reflection: 1
+            Prospector's Gambit
+            Surgeon's Exaltation
+        ]
+        Flock's Disintegration
+        Hermes' Gambit
+    }
+    Flock's Disintegration
+    [
+        {
+            [
+                {
+                    (PH-Inner)
+                }
+                Flock's Disintegration
+                Numerical Reflection: 1
+                Prospector's Gambit
+                Surgeon's Exaltation
+            ]
+        }
+        Flock's Disintegration
+        Numerical Reflection: 1
+        Prospector's Gambit
+        Surgeon's Exaltation
+    ]
+    Flock's Disintegration
+    Hermes' Gambit
+}
+Hermes' Gambit
