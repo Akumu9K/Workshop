@@ -1,0 +1,229 @@
+{
+    // Data
+    {
+        [
+            (A)
+        ]
+    }
+    Flock's Disintegration
+    {
+        [
+            (B)
+        ]
+    }
+    Flock's Disintegration
+    // Code
+    Scribe's Reflection
+    // Input, switch if true, stay if false
+    {
+        Jester's Gambit
+        Prospector's Gambit
+    }
+    {
+        Prospector's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    {
+        {
+            Bookkeeper's Gambit: -
+        }
+        Flock's Disintegration
+        {
+            Bookkeeper's Gambit: -
+        }
+        Flock's Disintegration
+    }
+    Jester's Gambit
+    Additive Distillation
+    // With the scaffolding at the bottom, and quine code at the top, the code gets added to the end of the scaffolding
+    Jester's Gambit
+    Numerical Reflection: 5
+    Jester's Gambit
+    Surgeon's Exaltation
+    // Second slot filled, now onto the first
+    Jester's Gambit
+    Numerical Reflection: 1
+    Jester's Gambit
+    Surgeon's Exaltation
+}
+
+
+// Quine former
+{
+    {
+        Scribe's Reflection
+        {
+            Jester's Gambit
+            Prospector's Gambit
+        }
+        {
+            Prospector's Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+        {
+            {
+                Bookkeeper's Gambit: -
+            }
+            Flock's Disintegration
+            {
+                Bookkeeper's Gambit: -
+            }
+            Flock's Disintegration
+        }
+        Jester's Gambit
+        Additive Distillation
+        Jester's Gambit
+        Numerical Reflection: 5
+        Jester's Gambit
+        Surgeon's Exaltation
+        Jester's Gambit
+        Numerical Reflection: 1
+        Jester's Gambit
+        Surgeon's Exaltation
+    }
+    {
+        Scribe's Reflection
+        {
+            Jester's Gambit
+            Prospector's Gambit
+        }
+        {
+            Prospector's Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+        {
+            {
+                Bookkeeper's Gambit: -
+            }
+            Flock's Disintegration
+            {
+                Bookkeeper's Gambit: -
+            }
+            Flock's Disintegration
+        }
+        Jester's Gambit
+        Additive Distillation
+        Jester's Gambit
+        Numerical Reflection: 5
+        Jester's Gambit
+        Surgeon's Exaltation
+        Jester's Gambit
+        Numerical Reflection: 1
+        Jester's Gambit
+        Surgeon's Exaltation
+    }
+    Scribe's Reflection
+    {
+        Jester's Gambit
+        Prospector's Gambit
+    }
+    {
+        Prospector's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    {
+        {
+            Bookkeeper's Gambit: -
+        }
+        Flock's Disintegration
+        {
+            Bookkeeper's Gambit: -
+        }
+        Flock's Disintegration
+    }
+    Jester's Gambit
+    Additive Distillation
+    Jester's Gambit
+    Numerical Reflection: 5
+    Jester's Gambit
+    Surgeon's Exaltation
+    Jester's Gambit
+    Numerical Reflection: 1
+    Jester's Gambit
+    Surgeon's Exaltation
+}
+
+
+
+
+// Hex studio test version
+{
+    {
+        Jester's Gambit
+        Prospector's Gambit
+        {
+            {
+                Bookkeeper's Gambit: -
+            }
+            Flock's Disintegration
+            {
+                Bookkeeper's Gambit: -
+            }
+            Flock's Disintegration
+        }
+        Jester's Gambit
+//        Combination Distillation
+        Jester's Gambit
+        Numerical Reflection: 5
+        Jester's Gambit
+        Surgeon's Exaltation
+        Jester's Gambit
+        Numerical Reflection: 1
+        Jester's Gambit
+        Surgeon's Exaltation
+        Numerical Reflection: 2
+        Scribe's Gambit
+    }
+    {
+        Jester's Gambit
+        Prospector's Gambit
+        {
+            {
+                Bookkeeper's Gambit: -
+            }
+            Flock's Disintegration
+            {
+                Bookkeeper's Gambit: -
+            }
+            Flock's Disintegration
+        }
+        Jester's Gambit
+//        Combination Distillation
+        Jester's Gambit
+        Numerical Reflection: 5
+        Jester's Gambit
+        Surgeon's Exaltation
+        Jester's Gambit
+        Numerical Reflection: 1
+        Jester's Gambit
+        Surgeon's Exaltation
+        Numerical Reflection: 1
+        Scribe's Gambit
+    }
+    Jester's Gambit
+    Prospector's Gambit
+    {
+        {
+            Bookkeeper's Gambit: -
+        }
+        Flock's Disintegration
+        {
+            Bookkeeper's Gambit: -
+        }
+        Flock's Disintegration
+    }
+    Jester's Gambit
+//    Combination Distillation
+    Jester's Gambit
+    Numerical Reflection: 5
+    Jester's Gambit
+    Surgeon's Exaltation
+    Jester's Gambit
+    Numerical Reflection: 1
+    Jester's Gambit
+    Surgeon's Exaltation
+}
