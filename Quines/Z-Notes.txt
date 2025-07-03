@@ -27,7 +27,7 @@ Regular Nested Quine Structure:
 [[-](B)B](A) A...
 [[-](B)B] (A)A . . .
 [[-](B)B]
-[[[[-](B)B]](B)B]
+[[[-](B)B](B)B]
 
 In the regular nested structure, a quine operates in one of the outer quine iterations, 
 Then replicates the data into itself.
