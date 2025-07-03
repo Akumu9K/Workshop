@@ -44,3 +44,11 @@ General if it operated like mine (Kinda):
 The major difference is, the general structure just scrolls and copies from a constant list,
 While mine takes out the next iteration out of the list to be used, necessitating it to self replicate,
 Since the copying process was not done, and then put its replication back in
+
+How to turn mine into a hybrid structure like the general so I dont have to deal with the problem of nesting:
+1. Remove the nested structure. Instead of [[[[[-]D]C]B]A], we need [[-,D,C,B]A]
+
+Mine relied on the fact that the nested structure automatically brought out the next iteration for running
+But we dont have that with a list structure.
+So;
+2. Implement a mechanism to pull out the next iteration
