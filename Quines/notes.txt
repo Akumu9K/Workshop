@@ -1,0 +1,46 @@
+Difference between general quine relay and my quine relay
+
+General:
+[(A,B,C) A]
+(A, B, C) A…
+(B, C, A) 
+(B, C, A) B
+[(B, C, A) B]
+
+The quine has a list of data and a program. 
+The program advances the list/scrolls it by 1, then grabs the next program and puts it at the front.
+
+Mine:
+
+[[[-](B)B](A)A]
+[[-](B)B](A) A…
+[[-](B)B] [-](A)A
+[[[-](A)A](B)B]
+
+There is 2 quines held inside one bigger quine. When the program, one of the internal quines,
+Is ran, it first replicates itself, then puts itself at the end,
+Letting the next quine be the program for the next iteration
+
+Regular Nested Quine Structure:
+
+[[[-](B)B](A)A]
+[[-](B)B](A) A...
+[[-](B)B] (A)A . . .
+[[-](B)B]
+[[[[-](B)B]](B)B]
+
+In the regular nested structure, a quine operates in one of the outer quine iterations, 
+Then replicates the data into itself.
+
+The difference is, mine puts its own copy into the data, while this puts the copy into itself.
+
+General if it operated like mine (Kinda):
+
+[(B,C) A]
+(B,C) A...
+(B,C,A)
+[(C,A) B]
+
+The major difference is, the general structure just scrolls and copies from a constant list,
+While mine takes out the next iteration out of the list to be used, necessitating it to self replicate,
+Since the copying process was not done, and then put its replication back in
