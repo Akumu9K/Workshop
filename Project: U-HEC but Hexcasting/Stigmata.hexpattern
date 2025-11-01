@@ -62,7 +62,7 @@
     // RM RAM Repackaging
     Numerical Reflection: 79
     // Location of the RM RAM in the reassembled quine, which is given by:
-    // Length of the Individual Spell Copy + 1 + Reassembly Process Length + 2
+    // Length of the Individual Spell Copy + 1 + Reassembly Process Length + 2 (Missing a +1 because 0 indexed)
     Muninn's Reflection
     Surgeon's Exaltation
     // End of RM RAM Repackaging.
@@ -237,7 +237,8 @@ Hermes' Gambit
 // Payload Function ON-OFF Switch with Input Lock
 
 {
-    // Lock IO
+    // Lock IO (Property Iota / Lock Input)
+    // False is LOCKED, True is UNLOCKED
     {
         (Lock IO (Property))
     }
@@ -252,6 +253,7 @@ Hermes' Gambit
     {
         False Reflection
         Schrödinger's Gambit
+        // Property Iota is reset here, the later lock reset is the internal/quine lock
         Muninn's Reflection
         {
             (RAM Location (Lock Status) (Integer))
@@ -263,6 +265,7 @@ Hermes' Gambit
             (RAM Location (Lock Time in Ticks) (Integer))
         }
         Flock's Disintegration
+        // Unlock time in ticks, default 2.5 seconds (50 ticks)
         Numerical Reflection: 50
         Surgeon's Exaltation
         Huginn's Gambit
@@ -325,7 +328,7 @@ Hermes' Gambit
     }
     Augur's Exaltation
     Hermes' Gambit
-    // Lock Reset
+    // Lock Reset (Internal/Quine)
     Muninn's Reflection
     {
         (RAM Location (Lock Time in Ticks) (Integer))
@@ -355,6 +358,7 @@ Hermes' Gambit
         Numerical Reflection: 1
         Subtractive Distillation
         Surgeon's Exaltation
+        Huginn's Gambit
     }
     Augur's Exaltation
     Hermes' Gambit
