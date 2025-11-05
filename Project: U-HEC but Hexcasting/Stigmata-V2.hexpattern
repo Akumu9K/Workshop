@@ -1,0 +1,440 @@
+/* 
+Glossary:
+Main Stigmata Code + Quine Setup
+RM RAM Storage & Retrieval Code
+Quine Start/Stop Code
+RM RAM Interaction Code
+Iris Compactification
+Payload Switch
+*/
+
+{
+    // "Placeholder" will be replaced with a copy of the spell, just without a placeholder of its own.
+    (Placeholder (Any Iota))
+    // Reassembly Section, duplicates the copy with gemini
+    // Breaks apart the first copy and puts intro and retro at its beginning and end 
+    // Then breaks apart the second copy and packages them together into the [{SPELL}SPELL] structure.
+    Gemini Decomposition
+    Jester's Gambit
+    {
+        {
+        }
+    }
+    Numerical Reflection: 0
+    Selection Distillation
+    Jester's Gambit
+    Flock's Disintegration
+    {
+        {
+        }
+    }
+    Numerical Reflection: 1
+    Selection Distillation
+    Flock's Reflection
+    Fisherman's Gambit
+    Flock's Disintegration
+    Flock's Reflection
+    Flock's Gambit
+    // End of Reassembly.
+    // All the important machinery can come after this, and stack size is constant. 
+
+    // Ravenmind RAM Restoration
+    {
+        (Ravenmind RAM (List Iota))
+    }
+    Flock's Disintegration
+    Huginn's Gambit
+    // End of Ravenmind RAM Restoration.
+    // The Reassembly Section can now be put into the RM RAM to keep it safe, if desired.
+
+    +// Insert Reassembly Section Storage Code here.
+
+    // Payload 
+    // Payload section, where the majority of the quine will reside, and be compressed with jump iotas.
+    // The RM RAM is utilized to save values that are relevant to the spells in the payload between each iteration.
+    // The total payload is compressed in this recursive structure: [JUMP] = [Spell, [JUMP]]
+    // The very last jump iota needs to contain a hermes inside it, to return back to the current continuation.
+    {
+        [JUMP]
+    }
+    Iris' Gambit
+    // The iris gambit creates the Payload Return Jump, to be activated at the end of the payload, 
+    // To return to the original continuation, using the hermes in the last jump iota in the nested structure.
+    // Can be saved in the RM RAM to keep it safe, and taken out and activated at the end of the payload.
+    // End of Payload.
+
+    (// Stack Clean-Up
+    // The stack needs to only be occupied by the reassembled quine, so we can clean it first
+    // Unnecessary if the cleanup is placed inside the payload [JUMP] 
+    // Recommended to skip this and use the version in the payload.
+    Flock's Reflection
+    // Stack Clean-Up Leftover, 1 for the Reassembly Section.
+    // Reduce to 0 if the value is stored in the RM RAM.
+    Numerical Reflection: 1
+    Subtractive Distillation
+    Flock's Gambit
+    Bookkeeper's Gambit: v
+    )// End of Stack Clean-Up.
+
+    +// Insert Reassembly Section Retrieval Code here.
+
+    // RM RAM Repackaging
+    Numerical Reflection: 79
+    // Location of the RM RAM in the reassembled quine, which is given by:
+    // Length of the Individual Spell Copy + 1 + Reassembly Process Length + 2 (Missing a +1 because 0 indexed)
+    Muninn's Reflection
+    Surgeon's Exaltation
+    // End of RM RAM Repackaging.
+
+    // Enqueueing Process.
+    // While the Start/Stop trinket can stop the quine, and it can also be manually stopped with a staff, an internal stop method is still useful.
+    // For this we will use the RM RAM one last time. We will store a TRUE or FALSE value in a specific index
+    // If TRUE, the spell will enqueue, if FALSE, it will not.
+    Muninn's Reflection
+    // The number corresponds to the index in which the value is stored.
+    Numerical Reflection: 0
+    Selection Distillation
+    True Reflection
+    Equality Distillation
+    {
+        // Enqueue logic.
+        Numerical Reflection: 1
+        {
+            (Label Iota (Pattern))
+        }
+        Flock's Disintegration
+        Enqueue
+    }
+    {
+        (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // End of Enqueueing Process.
+}
+// Quine assembly, which will replace the placeholder with a copy of the spell.
+Gemini Decomposition
+Speaker's Decomposition
+Bookkeeper's Gambit: v
+Numerical Reflection: 0
+Jester's Gambit
+Surgeon's Exaltation
+// At the end, the structure will look like [{SPELL}SPELL]
+// The complete structure is as follows:
+// [[SPELL], Reassembly Section, Ravenmind RAM Restoration, Payload, Stack Clean-Up, RM RAM Repackaging, Enqueueing Process]
+/*     ^            ^                       ^                  ^           ^                  ^                ^ 
+       I            I                       I                  I           I                  I                V
+       I            I                       I                  I           I                  V            "Enqueues the quine for the next iteration"
+       I            I                       I                  I           V             "Packages up the RM RAM into the quine to be restored in the next iteration"
+       I            I                       I                  V      "Cleans up the stack of everything except the quine" (Optional)
+       I            I                       V              "Executes all the functions of the quine"
+       I            V                   "Restores the RM RAM from the previous iteration"
+       V        "The quine section, assembles the copy into a form that can reassemble itself in the next iteration"
+     "Copy of the whole spell without the placeholder, thus the structure is the same as above except without [SPELL]"
+*/
+
+
+// Code for storage of Payload Return Jump or Reassembly Section:
+Muninn's Reflection
+{
+    (RAM Location (Storage Section) (Integer))
+}
+Flock's Disintegration
+Rotation Gambit
+Huginn's Gambit
+
+// Code for retrieval of the aforementioned iotas:
+Muninn's Reflection
+{
+    (RAM Location (Storage Section) (Integer))
+}
+Flock's Disintegration
+Selection Distillation
+
+// If these iotas are stored in the RM RAM, adjust the Stack Clean-Up Leftover's accordingly.
+
+
+// Spell for the Start/Stop trinket of the quine, with user verification.
+{
+    {
+        (Owner Entity Iota (Truename))
+    }
+    Flock's Disintegration
+    Mind's Reflection
+    Equality Distillation
+    {
+        {
+            (Label Iota (Pattern))
+        }
+        Flock's Disintegration
+        Program Purification II
+        Nullary Reflection
+        Equality Distillation
+        {
+            {
+                (QUINE (List Iota))
+            }
+            Flock's Disintegration
+            Hermes' Gambit
+        }
+        {
+            {
+                (Label Iota (Pattern))
+            }
+            Flock's Disintegration
+            Dequeue
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {
+        (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+
+
+// Macros for interacting with the RM RAM
+
+// Read 
+{
+    Muninn's Reflection
+    {
+        (RAM Location (Number))
+    }
+    Flock's Disintegration
+    Selection Distillation
+}
+
+// Write
+{
+    Muninn's Reflection
+    // Actual write section, can be duplicated multiple times to write multiple things before saving into the RAM
+    {
+        (RAM Location (Number))
+    }
+    Flock's Disintegration
+    Rotation Gambit
+    Surgeon's Exaltation
+    // End of write section
+    Huginn's Gambit
+}
+
+
+// Iris Compactification for the Payload 
+
+// Build-Up Section:
+{
+    {
+        Numerical Reflection: 1
+        Hermes' Gambit
+    }
+    Iris' Gambit
+    // This section first creates a Jump Iota that contains everything after the iris gambit, 
+    // And then mishaps with Num Ref 1 and Hermes, leaving the jump iota on the stack, 
+    // Without any of the code after the iris executing and mishapping destructively.
+    {
+        +// Insert Payload Return Jump Storage Code here, in the last build up section (The first jump ran in the code)
+
+        (PAYLOAD (List Iota))
+    }
+    Flock's Disintegration
+    Hermes' Gambit
+    {
+        [JUMP]
+    }
+    Flock's Disintegration
+    Hermes' Gambit
+}
+Hermes' Gambit
+
+// End Section:
+{
+    {
+        Numerical Reflection: 1
+        Hermes' Gambit
+    }
+    Iris' Gambit
+    {
+        (PAYLOAD (List Iota))
+    }
+    Flock's Disintegration
+    Hermes' Gambit
+    // Stack Clean-Up Section
+    Flock's Reflection
+    // Stack Clean-Up Leftover, 2 for both the Reassembly Section and Payload Return Jump. 
+    // Reduce to 1 or 0 if one or both of the values are stored in the RM RAM
+    Numerical Reflection: 2
+    Subtractive Distillation
+    Flock's Gambit
+    Bookkeeper's Gambit: v
+    // Stack Clean-Up End
+    // Return to original continuation
+
+    +// Insert Payload Return Jump Retrieval Code here, if it has been stored.
+
+    Hermes' Gambit 
+    // End of Stack Clean-Up
+}
+
+// Simplified Structure: [Spell,[JUMP]]
+// Recursively apply in the form of [Spell,[Spell,[Spell,Spell...]]]
+
+// Build from last section to the first on the payload, 
+// Starting with the end section, and iterating with the build up section,
+// Each time replacing [JUMP] with the jump iota obtained from the last iteration.
+
+
+// Payload Function ON-OFF Switch with Input Lock
+
+{
+    // Lock IO (Property Iota / Lock Input)
+    // False is LOCKED, True is UNLOCKED
+    {
+        (Lock IO (Property))
+    }
+    Flock's Disintegration
+    Gemini Decomposition
+    Observation Purification
+    False Reflection
+    Equality Distillation
+    {
+        (Empty)
+    }
+    {
+        False Reflection
+        Schrödinger's Gambit
+        // Property Iota is reset here, the later lock reset is the internal/quine lock
+        Muninn's Reflection
+        {
+            (RAM Location (Lock Status) (Integer))
+        }
+        Flock's Disintegration
+        True Reflection
+        Surgeon's Exaltation
+        {
+            (RAM Location (Lock Time in Ticks) (Integer))
+        }
+        Flock's Disintegration
+        // Unlock time in ticks, default 2.5 seconds (50 ticks)
+        Numerical Reflection: 50
+        Surgeon's Exaltation
+        Huginn's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // Update ON/OFF Switch
+    // Check if Readable
+    Auditor's Reflection
+    {
+        // Check if Unlocked
+        Muninn's Reflection
+        {
+            (RAM Location (Lock Status) (Integer))
+        }
+        Flock's Disintegration
+        Selection Distillation
+        True Reflection
+        Equality Distillation
+        {
+            // Check if Iota is one of the specified Input Iotas
+            Scribe's Reflection
+            {
+                (Input "on" (Any Iota))
+            }
+            Flock's Disintegration
+            Equality Distillation
+            Scribe's Reflection
+            {
+                (Input "off" (Any Iota))
+            }
+            Flock's Disintegration
+            Equality Distillation
+            Disjunction Distillation
+            {
+                // Save Iota to RAM
+                Muninn's Reflection
+                {
+                    (RAM Location (ON/OFF Status) (Integer))
+                }
+                Flock's Disintegration
+                Scribe's Reflection
+                Surgeon's Exaltation
+                Huginn's Gambit
+            }
+            {
+                (Empty)
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        {
+            (Empty)
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {
+        (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // Lock Reset (Internal/Quine)
+    Muninn's Reflection
+    {
+        (RAM Location (Lock Time in Ticks) (Integer))
+    }
+    Flock's Disintegration
+    Selection Distillation
+    Numerical Reflection: 0
+    Equality Distillation
+    {
+        Muninn's Reflection
+        {
+            (RAM Location (Lock Status) (Integer))
+        }
+        Flock's Disintegration
+        False Reflection
+        Surgeon's Exaltation
+        Huginn's Gambit
+    }
+    {
+        Muninn's Reflection
+        {
+            (RAM Location (Lock Time in Ticks) (Integer))
+        }
+        Flock's Disintegration
+        Dioscuri Gambit
+        Selection Distillation
+        Numerical Reflection: 1
+        Subtractive Distillation
+        Surgeon's Exaltation
+        Huginn's Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // Run Function if State On
+    Muninn's Reflection
+    {
+        (RAM Location (ON/OFF Status) (Integer))
+    }
+    Flock's Disintegration
+    Selection Distillation
+    {
+        (Input "on" (Iota))
+    }
+    Flock's Disintegration
+    Equality Distillation
+    {
+        {
+            [JUMP]
+        }
+        Iris' Gambit
+    }
+    {
+        (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
