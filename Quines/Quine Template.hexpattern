@@ -1,3 +1,4 @@
+// Quine Setup:
 {
     {
         (Placeholder)
@@ -10,3 +11,22 @@
 Numerical Reflection: 1
 Prospector's Gambit
 Surgeon's Exaltation
+
+// Finished Quine:
+[
+    {
+        [
+            {
+                (Placeholder)
+            }
+            Flock's Disintegration
+            Numerical Reflection: 1
+            Prospector's Gambit
+            Surgeon's Exaltation
+        ]
+    }
+    Flock's Disintegration
+    Numerical Reflection: 1
+    Prospector's Gambit
+    Surgeon's Exaltation
+]
