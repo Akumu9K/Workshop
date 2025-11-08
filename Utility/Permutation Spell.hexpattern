@@ -1,0 +1,32 @@
+// This program takes 2 lists as arguments, and produces all the permutations of their members. 
+{
+    // Stack Cleanup
+    Numerical Reflection: 2
+    Flock's Gambit
+    Flock's Reflection
+    Numerical Reflection: -1
+    Multiplicative Distillation
+    Fisherman's Gambit
+    Flock's Reflection
+    Numerical Reflection: 1
+    Subtractive Distillation
+    Flock's Gambit
+    Bookkeeper's Gambit: v
+    Flock's Disintegration
+    // Actual Program
+    Jester's Gambit
+    {
+        Flock's Reflection
+        Flock's Gambit
+        // Special Handling goes here.
+    }
+    Jester's Gambit
+    Thoth's Gambit
+    Jester's Gambit
+    Bookkeeper's Gambit: v
+    Flock's Disintegration
+}
+Jester's Gambit
+Thoth's Gambit
+Jester's Gambit
+Bookkeeper's Gambit: v
