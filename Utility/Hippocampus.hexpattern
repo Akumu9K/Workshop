@@ -74,7 +74,7 @@
                 Scribe's Reflection
                 Jester's Gambit
                 // Location of placeholder*
-                Numerical Reflection: 91
+                Numerical Reflection: 94
                 Jester's Gambit
                 Surgeon's Exaltation
                 Scribe's Gambit
@@ -99,21 +99,24 @@
         Hermes' Gambit
     }
     {
+        // Restoration step-1
+        Scribe's Reflection
+        // Location of placeholder*
+        Numerical Reflection: 94
+        Selection Distillation
+        Huginn's Gambit
         // Reset
         Scribe's Reflection
         // Location of placeholder*
-        Numerical Reflection: 91
+        Numerical Reflection: 94
         {
             (COPY-(Placeholder*))
         }
         Flock's Disintegration
         Surgeon's Exaltation
         Scribe's Gambit 
-        // Restoration
-        Scribe's Reflection
-        // Location of placeholder*
-        Numerical Reflection: 91
-        Selection Distillation
+        // Restoration step-2
+        Muninn's Reflection
         Hermes' Gambit
     }
     Augur's Exaltation
