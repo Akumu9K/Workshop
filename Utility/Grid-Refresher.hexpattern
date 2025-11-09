@@ -1,0 +1,125 @@
+{
+    // Check if stack and ravenmind has anything in them, true if, false if not.
+    Flock's Reflection
+    Augur's Purification
+    Negation Purification
+    Muninn's Reflection
+    Augur's Purification
+    Negation Purification
+    Conjunction Distillation
+    Negation Purification
+    {
+        Assessor's Reflection
+        {
+            Auditor's Reflection
+            {
+                (Empty)
+            }
+            {
+                {
+                    (Copy of the spell, for quine)
+                }
+                Flock's Disintegration
+                // Location of (Copy of the spell)
+                Numerical Reflection: 16
+                Prospector's Gambit
+                Surgeon's Exaltation
+                Scribe's Gambit
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+            (//Snapshot
+            {
+                // Continuation jump iota created. Stack looks like: Jump, Stack
+                {
+                    {
+                        (Placeholder)
+                    }
+                    Flock's Disintegration
+                    Huginn's Gambit
+                    {
+                        (Placeholder)
+                    }
+                    Flock's Disintegration
+                    Flock's Disintegration
+                    (Placeholder)
+                }
+                // Scaffolding for "snapshot" created. Stack looks like: Scaffold, Jump, Stack
+                Numerical Reflection: 1
+                Muninn's Reflection
+                Reveal
+                Surgeon's Exaltation
+                // Ravenmind saved to scaffold
+                Jester's Gambit
+                Numerical Reflection: 10
+                Jester's Gambit
+                Surgeon's Exaltation
+                // Jump saved to scaffold
+                Flock's Reflection
+                Numerical Reflection: -1
+                Multiplicative Distillation
+                Fisherman's Gambit
+                // Push scaffold to the bottom
+                Flock's Reflection
+                Numerical Reflection: 1
+                Subtractive Distillation
+                Flock's Gambit
+                // List up the stack
+                Numerical Reflection: 6
+                Jester's Gambit
+                Reveal
+                Surgeon's Exaltation
+                // Save it in scaffold
+                // Output function
+                Scribe's Reflection
+                Jester's Gambit
+                // Location of placeholder*
+                Numerical Reflection: 87
+                Jester's Gambit
+                Surgeon's Exaltation
+                Scribe's Gambit
+                // Reset wand
+                Nullary Reflection
+                Huginn's Gambit
+                Flock's Reflection
+                Flock's Gambit
+                Bookkeeper's Gambit: v
+                {
+                    [JUMP] (Empty)
+                }
+                Hermes' Gambit
+            }
+            Iris' Gambit
+            )//Snapshot
+        }
+        {
+            (Empty)
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {
+        // Reset
+        Scribe's Reflection
+        // Location of placeholder*
+        Numerical Reflection: 87
+        {
+            (COPY-(Placeholder*))
+        }
+        Flock's Disintegration
+        Surgeon's Exaltation
+        Scribe's Gambit
+        // Restoration
+        {
+            (Placeholder*)
+        }
+        Flock's Disintegration
+        Hermes' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+// Quine Setup
+Numerical Reflection: 16
+Prospector's Gambit
+Surgeon's Exaltation
