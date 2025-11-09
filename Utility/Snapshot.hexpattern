@@ -1,3 +1,5 @@
+// Do not use inside a thoth loop. It will only save that iteration, not anything outside.
+// A thoth loop could be used to contain this though.
 {
     // Continuation jump iota created. Stack looks like: Jump, Stack
     {
