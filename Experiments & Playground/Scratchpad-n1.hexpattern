@@ -1,22 +1,20 @@
-{
-    <[Introspection, [Scribe's Reflection, Numerical Reflection: 1, Selection Distillation, Gemini Decomposition, Scribe's Reflection, Numerical Reflection: 0, Selection Distillation, Locator's Distillation, Numerical Reflection: 1, Additive Distillation, Selection Distillation, Hermes' Gambit], "Browser", [Whisper Reflection, Introspection, ".", "/", Retrospection, Huginn's Gambit, Muninn's Reflection, Numerical Reflection: 0, Selection Distillation, Separation Distillation, Gemini Decomposition, Length Purification, Numerical Reflection: 2, Equality Distillation, Introspection, Retrospection, Introspection, Numerical Reflection: 12, Numerical Reflection: 0, Numerical Reflection: -50, Vector Exaltation, Introspection, Euler's Reflection, Retrospection, Flock's Disintegration, Akasha's Distillation, Numerical Reflection: 2, Selection Distillation, Numerical Reflection: 3, Selection Distillation, Reveal, Bookkeeper's Gambit: v, Charon's Gambit, Retrospection, Augur's Exaltation, Hermes' Gambit, Flock's Disintegration, Muninn's Reflection, Numerical Reflection: 1, Selection Distillation, Separation Distillation, Gemini Decomposition, Length Purification, Huginn's Gambit, Flock's Disintegration, Muninn's Reflection, Numerical Reflection: 1, Subtractive Distillation, Flock's Gambit, Numerical Reflection: 3, Flock's Gambit, Huginn's Gambit, Numerical Reflection: 3, Numerical Reflection: 0, Numerical Reflection: -50, Vector Exaltation, Gemini Decomposition, Introspection, Numerical Reflection: 1, Retrospection, Flock's Disintegration, Akasha's Distillation, Muninn's Reflection, Numerical Reflection: 1, Selection Distillation, Prospector's Gambit, Jester's Gambit, Locator's Distillation, Numerical Reflection: 1, Additive Distillation, Selection Distillation, Akasha's Distillation, Gemini Decomposition, Numerical Reflection: 1, Selection Distillation, Jester's Gambit, Gemini Decomposition, Muninn's Reflection, Numerical Reflection: 0, Selection Distillation, Locator's Distillation, Numerical Reflection: 1, Additive Distillation, Selection Distillation, Flock's Disintegration, Akasha's Distillation, Jester's Gambit, Mind's Reflection, Scrivener's Purification, Jester's Gambit, Hermes' Gambit], "Run", [Scribe's Reflection, Numerical Reflection: 0, Whisper Reflection, Surgeon's Exaltation, Scribe's Gambit, Scribe's Reflection, Numerical Reflection: 1, Selection Distillation, Gemini Decomposition, Scribe's Reflection, Numerical Reflection: 0, Selection Distillation, Locator's Distillation, Numerical Reflection: 1, Additive Distillation, Selection Distillation, Hermes' Gambit], "Delete", [Scribe's Reflection, Numerical Reflection: 1, Selection Distillation, Whisper Reflection, Locator's Distillation, Numerical Reflection: -1, Inequality Distillation, Introspection, Scribe's Reflection, Numerical Reflection: 1, Dioscuri Gambit, Selection Distillation, Gemini Decomposition, Whisper Reflection, Locator's Distillation, Gemini Decomposition, Huginn's Gambit, Excisor's Distillation, Muninn's Reflection, Excisor's Distillation, Surgeon's Exaltation, Scribe's Gambit, Retrospection, Introspection, Introspection, ">No Such file", Retrospection, Flock's Disintegration, Reveal, Retrospection, Augur's Exaltation, Hermes' Gambit], "FactorySettings", [Whisper Reflection, Introspection, "Y", Retrospection, Flock's Disintegration, Equality Distillation, Introspection, Introspection, [Null, [[Introspection, ">No such program exsists", Retrospection, Flock's Disintegration, Reveal]]], Retrospection, Flock's Disintegration, Scribe's Gambit, Introspection, ">Memory reset to factory settings", Retrospection, Flock's Disintegration, Reveal, Retrospection, Introspection, Retrospection, Augur's Exaltation, Hermes' Gambit], Retrospection, Gemini Decomposition, Scribe's Reflection, Numerical Reflection: 0, Selection Distillation, Locator's Distillation, Numerical Reflection: 1, Additive Distillation, Selection Distillation, Hermes' Gambit]>
-    <"terminate">
-    <[Scribe's Reflection, Numerical Reflection: 0, Nullary Reflection, Surgeon's Exaltation, Scribe's Gambit, Introspection, ">Program terminated", Retrospection, Flock's Disintegration, Reveal, Bookkeeper's Gambit: v]>
-    <"browse">
-    <[Scribe's Reflection, Numerical Reflection: 0, Introspection, "Browser", Retrospection, Flock's Disintegration, Surgeon's Exaltation, Scribe's Gambit, Introspection, ">Enter URL", Retrospection, Flock's Disintegration, Reveal, Bookkeeper's Gambit: v]>
-    <"delete">
-    <[Scribe's Reflection, Numerical Reflection: 0, Introspection, "Delete", Retrospection, Flock's Disintegration, Surgeon's Exaltation, Scribe's Gambit, Introspection, ">Enter file name", Retrospection, Flock's Disintegration, Reveal, Bookkeeper's Gambit: v]>
-    <"dir">
-    <[Introspection, Scribe's Reflection, Numerical Reflection: 1, Selection Distillation, Prospector's Gambit, Locator's Distillation, Numerical Reflection: 2, Modulus Distillation, Numerical Reflection: 0, Inequality Distillation, Introspection, Reveal, Retrospection, Introspection, Retrospection, Augur's Exaltation, Hermes' Gambit, Retrospection, Scribe's Reflection, Numerical Reflection: 1, Selection Distillation, Thoth's Gambit]>
-    <"run">
-    <[Scribe's Reflection, Numerical Reflection: 0, Introspection, "Run", Retrospection, Flock's Disintegration, Surgeon's Exaltation, Scribe's Gambit, Introspection, ">Enter file name", Retrospection, Flock's Disintegration, Reveal, Bookkeeper's Gambit: v]>
-    <"FactorySettings">
-    <[Scribe's Reflection, Numerical Reflection: 0, Introspection, "FactorySettings", Retrospection, Flock's Disintegration, Surgeon's Exaltation, Scribe's Gambit, Introspection, ">Are you sure you want to reset to factory settings [Y/N]", Retrospection, Flock's Disintegration, Reveal, Bookkeeper's Gambit: v]>
-}
-Gemini Decomposition
-Whisper Reflection
-Locator's Distillation
-Numerical Reflection: 1
+Vector Reflection +X
+Vector Reflection -X
+Vector Reflection +Y
+Vector Reflection -Y
+Vector Reflection +Z
+Vector Reflection -Z
+Flock's Reflection
+Flock's Disintegration
+Introspection
+Numerical Reflection: 5
+Multiplicative Distillation
+Mind's Reflection
+Compass' Purification
 Additive Distillation
-Selection Distillation
-Hermes' Gambit
+// Explosion size, change to whatever you want
+Numerical Reflection: 10
+Explosion
+Retrospection
+Jester's Gambit
+Thoth's Gambit
