@@ -1,0 +1,46 @@
+{
+    // Continuation jump iota created. Stack looks like: Jump, Stack
+    {
+        {
+            (Placeholder)
+        }
+        Flock's Disintegration
+        Huginn's Gambit
+        {
+            (Placeholder)
+        }
+        Flock's Disintegration
+        Flock's Disintegration
+        (Placeholder)
+    }
+    // Scaffolding for "snapshot" created. Stack looks like: Scaffold, Jump, Stack
+    Numerical Reflection: 1
+    Muninn's Reflection
+    Surgeon's Exaltation
+    // Ravenmind saved to scaffold
+    Jester's Gambit
+    Numerical Reflection: 10
+    Jester's Gambit
+    Surgeon's Exaltation
+    // Jump saved to scaffold
+    Flock's Reflection
+    Numerical Reflection: -1
+    Multiplicative Distillation
+    Fisherman's Gambit
+    // Push scaffold to the bottom
+    Flock's Reflection
+    Numerical Reflection: 1
+    Subtractive Distillation
+    Flock's Gambit
+    // List up the stack
+    Numerical Reflection: 6
+    Jester's Gambit
+    Surgeon's Exaltation
+    // Save it in scaffold
+    +//Output Function goes here
+    {
+        [JUMP]
+    }
+    Hermes' Gambit
+}
+Iris' Gambit
