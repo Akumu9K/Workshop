@@ -75,7 +75,7 @@
                 Scribe's Reflection
                 Jester's Gambit
                 // Location of placeholder*
-                Numerical Reflection: 93
+                Numerical Reflection: 104
                 Jester's Gambit
                 Surgeon's Exaltation
                 Scribe's Gambit
@@ -103,13 +103,13 @@
         // Restoration step-1
         Scribe's Reflection
         // Location of placeholder*
-        Numerical Reflection: 93
+        Numerical Reflection: 104
         Selection Distillation
         Huginn's Gambit
         // Reset
         Scribe's Reflection
         // Location of placeholder*
-        Numerical Reflection: 93
+        Numerical Reflection: 104
         {
             (COPY-(Placeholder*))
         }
