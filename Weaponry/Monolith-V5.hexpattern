@@ -54,13 +54,24 @@ Augur's Purification
 {
     Flock's Disintegration
     Compass' Purification
-    Summon Sentinel
+    Summon Greater Sentinel
     Flock's Reflection
     Flock's Gambit
     Bookkeeper's Gambit: v
-
 }
 {
+    Locate Sentinel
+    Augur's Purification
+    {
+        (Empty)
+    }
+    {
+        Mind's Reflection
+        Compass' Purification
+        Summon Greater Sentinel
+    }
+    Augur's Exaltation
+    Hermes' Gambit
     Locate Sentinel
     Numerical Reflection: 16
     Zone Distillation: Player
@@ -74,7 +85,7 @@ Augur's Purification
     {
         Flock's Disintegration
         Compass' Purification
-        Summon Sentinel
+        Summon Greater Sentinel
         Flock's Reflection
         Flock's Gambit
         Bookkeeper's Gambit: v
@@ -157,6 +168,7 @@ Augur's Purification
                     Numerical Reflection: 8
                     Multiplicative Distillation
                     Additive Distillation
+                    // ADD: Fix for outside world border issues
                     Summon Greater Sentinel
                 }
                 Augur's Exaltation
@@ -179,7 +191,7 @@ Hermes' Gambit
 {
     Auditor's Reflection
     {
-        Scribe's Gambit
+        Scribe's Reflection
         Hermes' Gambit
     }
     {
