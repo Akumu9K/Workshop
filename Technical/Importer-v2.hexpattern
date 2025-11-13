@@ -1,4 +1,17 @@
 Reader's Purification
+Blank Reflection
+Huginn's Gambit
+{
+    Muninn's Reflection
+    Jester's Gambit
+    Concatenation Distillation
+    Huginn's Gambit
+}
+Jester's Gambit
+Thoth's Gambit
+Muninn's Reflection
+Jester's Gambit
+Bookkeeper's Gambit: v
 {
     (String "][")
 }
@@ -11,7 +24,7 @@ Bookkeeper's Gambit: v
 {
     Gemini Decomposition
     {
-        (String "Pcolor")
+        (String "pcolor")
     }
     Flock's Disintegration
     Discoverer's Distillation
@@ -76,3 +89,5 @@ Thoth's Gambit
 }
 Jester's Gambit
 Thoth's Gambit
+Nullary Reflection
+Huginn's Gambit
