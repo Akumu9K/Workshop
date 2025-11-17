@@ -1,0 +1,90 @@
+// Gas gas gas.
+
+{
+    // Get desired movement vector
+    Mind's Reflection
+    Alidade's Purification
+    Scribe's Reflection
+    Numerical Reflection: 343
+    Numerical Reflection: 20
+    Division Distillation
+    Multiplicative Distillation
+    Multiplicative Distillation
+    // Get current movement vector
+    Mind's Reflection
+    Pace Purification
+    Numerical Reflection: -1
+    Multiplicative Distillation
+    // Find the difference
+    Additive Distillation
+    // Cap its magnitude
+    Gemini Decomposition
+    Length Purification
+    Numerical Reflection: 15
+    Maximus Distillation
+    {
+        Gemini Decomposition
+        Length Purification
+        Division Distillation
+        Numerical Reflection: 15
+        Multiplicative Distillation
+    }
+    {
+        (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // Prepare for the acceleration loop
+    Gemini Decomposition
+    Length Purification
+    Numerical Reflection: 100
+    Multiplicative Distillation
+    Huginn's Gambit
+    Numerical Reflection: 100
+    Division Distillation
+    Mind's Reflection
+    Jester's Gambit
+    // Set up acceleration loop and run it
+    {
+        (Empty)
+    }
+    Iris' Gambit
+    Rotation Gambit II
+    Dioscuri Gambit
+    Impulse
+    Rotation Gambit
+    Muninn's Reflection
+    Augur's Purification
+    {
+        Muninn's Reflection
+        Numerical Reflection: -1
+        Additive Distillation
+        Huginn's Gambit
+        Gemini Decomposition
+        Hermes' Gambit
+    }
+    {
+        Bookkeeper's Gambit: v
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // Quine
+    {
+        (Placeholder)
+        Bookkeeper's Gambit: -
+    }
+    Flock's Disintegration
+    Numerical Reflection: 1
+    Prospector's Gambit
+    Surgeon's Exaltation
+    Auditor's Reflection
+    {
+        Numerical Reflection: 1
+        Enqueue
+    }
+    {
+        (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
