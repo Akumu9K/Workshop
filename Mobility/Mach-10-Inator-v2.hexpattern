@@ -23,20 +23,12 @@
     // Get desired movement vector
     Mind's Reflection
     Alidade's Purification
-    // Check if readable
     Scribe's Reflection
     Numerical Reflection: 343
     Numerical Reflection: 20
     Division Distillation
     Multiplicative Distillation
     Multiplicative Distillation
-    // Get current movement vector
-    Mind's Reflection
-    Pace Purification
-    Numerical Reflection: -1
-    Multiplicative Distillation
-    // Find the difference
-    Additive Distillation
     // Cap its magnitude
     Gemini Decomposition
     Length Purification
@@ -57,10 +49,10 @@
     // Prepare for the acceleration loop
     Gemini Decomposition
     Length Purification
-    Numerical Reflection: 100
+    Numerical Reflection: 1
     Multiplicative Distillation
     Huginn's Gambit
-    Numerical Reflection: 100
+    Numerical Reflection: 1
     Division Distillation
     Mind's Reflection
     Jester's Gambit
