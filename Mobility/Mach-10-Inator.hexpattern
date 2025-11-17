@@ -4,7 +4,16 @@
     // Get desired movement vector
     Mind's Reflection
     Alidade's Purification
-    Scribe's Reflection
+    // Check if readable
+    Auditor's Reflection
+    {
+        Scribe's Reflection
+    }
+    {
+        [JUMP] (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
     Numerical Reflection: 343
     Numerical Reflection: 20
     Division Distillation
@@ -77,14 +86,6 @@
     Numerical Reflection: 1
     Prospector's Gambit
     Surgeon's Exaltation
-    Auditor's Reflection
-    {
-        Numerical Reflection: 1
-        Enqueue
-    }
-    {
-        (Empty)
-    }
-    Augur's Exaltation
-    Hermes' Gambit
+    Numerical Reflection: 1
+    Enqueue
 }
