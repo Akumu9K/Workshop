@@ -1,0 +1,314 @@
+// Hex Malware
+Mind's Reflection
+{
+    (Truename (Entity Iota))
+}
+Flock's Disintegration
+Equality Distillation
+// Check if cast by owner. If true, do nothing. If not, proceed to the malware.
+{
+    (Empty)
+}
+{
+    Assessor's Reflection
+    {
+        Mind's Reflection
+        Scribe's Gambit
+    }
+    {
+        (Empty)
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // Check if caster has a writeable item on them. If true, write their truename on it. If not, do nothing.
+    Mind's Reflection
+    Numerical Reflection: 20
+    Numerical Reflection: 3
+    Black Sun's Nadir
+    Waystone Reflection
+    // Kill Section. Inflict with wither, mishap and spill out their items.
+}
+Augur's Exaltation
+Hermes' Gambit
+// Spell
+{
+    // Save jump iota for escape
+    Huginn's Gambit
+    // Check if zone distillation is out of bounds, skip the entire section if not
+    Mind's Reflection
+    Compass' Purification
+    Vector Disintegration
+    Bookkeeper's Gambit: v-v
+    Gemini Decomposition
+    // Upper out of bounds limit, 256 in the nether and end, 320 in the overworld
+    // Change all the other limits to 256 aswell, if you change this to 256.
+    Numerical Reflection: 320
+    Maximus Distillation
+    Jester's Gambit
+    // Lower out of bounds limit, always -64
+    Numerical Reflection: -64
+    Minimus Distillation
+    Disjunction Distillation
+    {
+        Muninn's Reflection
+        Hermes' Gambit
+    }
+    {
+        Mind's Reflection
+        Compass' Purification
+        Numerical Reflection: 32
+        Zone Distillation: Player
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // Remove self, for special case of user centered zone distil only
+    Speaker's Decomposition
+    Bookkeeper's Gambit: v
+    Gemini Decomposition
+    Augur's Purification
+    {
+        // Summon sentinel ontop of the nearest non user player
+        Flock's Disintegration
+        Compass' Purification
+        Summon Greater Sentinel
+        // Stack cleanup
+        Flock's Reflection
+        Flock's Gambit
+        Bookkeeper's Gambit: v
+    }
+    {
+        // Check if sentinel is summoned, skip sentinel check if not
+        Locate Sentinel
+        Augur's Purification
+        {
+            Locate Sentinel
+            Numerical Reflection: 16
+            Zone Distillation: Player
+            // Remove self, for general case.
+            Mind's Reflection
+            Speaker's Distillation
+            Mind's Reflection
+            Single's Purification
+            Exclusion Distillation
+            Gemini Decomposition
+            Augur's Purification
+        }
+        {
+            Vacant Reflection
+            False Reflection
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+        {
+            Flock's Disintegration
+            Compass' Purification
+            Summon Greater Sentinel
+            Flock's Reflection
+            Flock's Gambit
+            Bookkeeper's Gambit: v
+        }
+        {
+            Bookkeeper's Gambit: v
+            // Walker Check
+            Mind's Reflection
+            Stadiometer's Purification
+            Numerical Reflection: 17
+            Numerical Reflection: 10
+            Division Distillation
+            ((// Only if pekhui is installed 
+            Mind's Reflection
+            Gulliver's Purification
+            Multiplicative Distillation
+            ))// End
+            Minimus Distillation
+            (// If you want to be able to decide whether the sentinel walker should be useable in flight or not. You can omit this if you want.
+            Mind's Reflection
+            Stadiometer's Purification
+            Numerical Reflection: 1
+            ((// Only if pekhui is installed 
+            Mind's Reflection
+            Gulliver's Purification
+            Multiplicative Distillation
+            ))// End 
+            Maximus Distillation
+            Negation Purification
+            // Use disjunction distillation (OR) here to be able to use it in flight, use exclusion distillation (XOR) if you want to disable it in flight.
+            // I just went with disjunction distillation as default.
+            Disjunction Distillation
+            )// End
+            // Sentinel Walker
+            {
+                // Check if out of bounds, sentinel summon
+                Mind's Reflection
+                Compass' Purification
+                Mind's Reflection
+                Alidade's Purification
+                Numerical Reflection: 30
+                Multiplicative Distillation
+                Additive Distillation
+                Vector Disintegration
+                Bookkeeper's Gambit: v-v
+                Gemini Decomposition
+                // Upper out of bounds limit
+                Numerical Reflection: 320
+                Maximus Distillation
+                Jester's Gambit
+                Numerical Reflection: -64
+                Minimus Distillation
+                Disjunction Distillation
+                {
+                    (Empty)
+                }
+                {
+                    // Summon sentinel 30 blocks away from the player
+                    Mind's Reflection
+                    Compass' Purification
+                    Mind's Reflection
+                    Alidade's Purification
+                    Numerical Reflection: 30
+                    Multiplicative Distillation
+                    Additive Distillation
+                    Summon Greater Sentinel
+                    // Set up thoth loop
+                    Numerical Reflection: 1
+                    Numerical Reflection: 25
+                    Gemini Gambit
+                    Numerical Reflection: 25
+                    Flock's Gambit
+                    {
+                        Bookkeeper's Gambit: v
+                        // Check if any players are near the sentinel
+                        Locate Sentinel
+                        Numerical Reflection: 16
+                        Zone Distillation: Player
+                        Gemini Decomposition
+                        Augur's Purification
+                        {
+                            // Summon sentinel on closest player, break
+                            Flock's Disintegration
+                            Compass' Purification
+                            Summon Greater Sentinel
+                            Muninn's Reflection
+                            Hermes' Gambit
+                        }
+                        {
+                            // Check if out of bounds, sentinel walk
+                            Locate Sentinel
+                            Mind's Reflection
+                            Alidade's Purification
+                            Numerical Reflection: 15
+                            Multiplicative Distillation
+                            Additive Distillation
+                            Vector Disintegration
+                            Bookkeeper's Gambit: v-v
+                            Gemini Decomposition
+                            // Upper out of bounds limit
+                            Numerical Reflection: 320
+                            Maximus Distillation
+                            Jester's Gambit
+                            Numerical Reflection: -64
+                            Minimus Distillation
+                            Disjunction Distillation
+                            {
+                                // If true, break
+                                Muninn's Reflection
+                                Hermes' Gambit
+                            }
+                            {
+                                // If false, move forward
+                                Locate Sentinel
+                                Mind's Reflection
+                                Alidade's Purification
+                                Numerical Reflection: 15
+                                Multiplicative Distillation
+                                Additive Distillation
+                                Summon Greater Sentinel
+                            }
+                            Augur's Exaltation
+                            Hermes' Gambit
+                        }
+                        Augur's Exaltation
+                        Hermes' Gambit
+                    }
+                    Jester's Gambit
+                    Thoth's Gambit
+                }
+                Augur's Exaltation
+                Hermes' Gambit
+            }
+            {
+                (Empty)
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Iris' Gambit
+// Stack cleanup
+Flock's Purification
+Flock's Gambit
+Bookkeeper's Gambit: v
+// Check if sentinel exists in the world.
+Locate Sentinel
+Augur's Purification
+{
+    // Check if there is a list iota that can be read, and if so, if it is in the required structure [(Placeholder),[Spell]]
+    // If not, utilize the default attack.
+    // Replace auditors ref. with false ref. if you desire to always use the default attack.
+    Auditor's Reflection
+    {
+        Vacant Reflection
+        Scribe's Reflection
+        Additive Distillation
+        Length Purification
+        Numerical Reflection: 2
+        Equality Distillation
+    }
+    {
+        False Reflection
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    {
+        Scribe's Reflection
+        Hermes' Gambit
+    }
+    {
+        // Default Attack
+        Locate Sentinel
+        Numerical Reflection: 16
+        Zone Distillation: Player
+        Mind's Reflection
+        Speaker's Distillation
+        Mind's Reflection
+        Single's Purification
+        Exclusion Distillation
+        {
+            Gemini Decomposition
+            Compass' Purification
+            Numerical Reflection: 5
+            Gemini Gambit
+            Break Block
+            Create Water
+            Numerical Reflection: 10
+            Explosion
+            Conjure Block
+            Break Block
+        }
+        Jester's Gambit
+        Thoth's Gambit
+        Reveal
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+{
+    (Empty)
+}
+Augur's Exaltation
+Hermes' Gambit
