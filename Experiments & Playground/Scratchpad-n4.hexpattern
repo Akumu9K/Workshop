@@ -1,0 +1,40 @@
+
+{
+    {
+        (Empty)
+    }
+    Arke's Gambit
+    Mind's Reflection
+    {
+        (Truename (Entity Iota))
+    }
+    Flock's Disintegration
+    Equality Distillation
+    // Check if cast by owner. If true, do nothing. If not, proceed to the malware.
+    {
+        Numerical Reflection: 1
+        Reveal
+    }
+    {
+        // Check if caster has a writeable item on them. If true, write their truename on it. If not, do nothing.
+        Assessor's Reflection
+        {
+            Mind's Reflection
+            Scribe's Gambit
+        }
+        {
+            (Empty)
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+        // Kill section. Inflict with wither, spill out their items and mishap.
+        Mind's Reflection
+        Numerical Reflection: 20
+        Numerical Reflection: 3
+        Black Sun's Nadir
+        Waystone Reflection
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Thetis' Gambit
