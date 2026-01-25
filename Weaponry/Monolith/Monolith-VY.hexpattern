@@ -250,7 +250,7 @@ Hermes' Gambit
 }
 Iris' Gambit
 // Stack cleanup
-Flock's Purification
+Flock's Reflection
 Flock's Gambit
 Bookkeeper's Gambit: v
 // Check if sentinel exists in the world.
@@ -282,7 +282,7 @@ Augur's Purification
     Hermes' Gambit
     {
         // Stack cleanup
-        Flock's Purification
+        Flock's Reflection
         Flock's Gambit
         Bookkeeper's Gambit: v
         // Get rid of the key
