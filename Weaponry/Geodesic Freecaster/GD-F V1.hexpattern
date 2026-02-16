@@ -24,7 +24,7 @@
             Integration Distillation
         }
         Semaphore's Reflection
-        Gemini Decomposition
+        Gemini Gambit
         {
             Additive Distillation
         }
@@ -44,37 +44,45 @@
         Jester's Gambit
         Additive Distillation
         Huginn's Gambit
+        True Reflection
     }
     {
-        (Empty)
+        False Reflection
     }
     Augur's Exaltation
     Hermes' Gambit
+    Gemini Decomposition
+    Rotation Gambit II
     // 
     Numerical Reflection: 8
-    Muninn's Reflection
+    Jester's Gambit
+    {
+        Muninn's Reflection
+    }
+    {
+        {
+            (Empty)
+        }
+    }
+    Augur's Exaltation
+    Hermes' Gambit
     Surgeon's Exaltation
     Numerical Reflection: 1
     Numerical Reflection: 6
     Reading Purification (text)
     Enqueue
     // 
+    Negation Purification
     Muninn's Reflection
     Augur's Purification
+    Semaphore's Reflection
+    Augur's Purification
+    Negation Purification
+    Conjunction Distillation
+    Conjunction Distillation
     {
-        Semaphore's Reflection
-        Augur's Purification
-        {
-            (Empty)
-        }
-        {
-            Muninn's Reflection
-            Nullary Reflection
-            Huginn's Gambit
-            Hermes' Gambit
-        }
-        Augur's Exaltation
-        Hermes' Gambit
+        Muninn's Reflection
+        Hermes' Gambit // Or reveal
     }
     {
         (Empty)
@@ -86,6 +94,26 @@ Numerical Reflection: 1
 Prospector's Gambit
 Surgeon's Exaltation
 Numerical Reflection: 8
-Nullary Reflection
+{
+    (Empty)
+}
 Surgeon's Exaltation
 // 
+
+
+Numerical Reflection: 1
+Numerical Reflection: 6
+Reading Purification (text)
+Gemini Decomposition
+Mind's Reflection
+Jester's Gambit
+Program Purification // Program Distillation
+Augur's Purification
+{
+    Dequeue
+}
+{
+    Enqueue
+}
+Augur's Exaltation
+Hermes' Gambit
