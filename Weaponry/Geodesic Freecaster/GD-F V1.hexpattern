@@ -117,3 +117,5 @@ Augur's Purification
 }
 Augur's Exaltation
 Hermes' Gambit
+
+// Latency issues, need better system that can wait multiple ticks.
