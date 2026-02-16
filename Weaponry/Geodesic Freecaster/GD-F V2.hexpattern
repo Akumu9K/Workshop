@@ -29,7 +29,6 @@
         {
             Jester's Gambit
             Gemini Decomposition
-            Rotation Gambit II
             Hermes' Gambit
         }
         {
@@ -59,16 +58,26 @@
     }
     {
         Muninn's Reflection
-        Numerical Reflection: 1
+        Numerical Reflection: 2
         Selection Distillation
-        Numerical Reflection: 1
-        Additive Distillation
-        Muninn's Reflection
-        Jester's Gambit
-        Numerical Reflection: 1
-        Jester's Gambit
-        Surgeon's Exaltation
-        Huginn's Gambit
+        {
+            Muninn's Reflection
+            Numerical Reflection: 1
+            Selection Distillation
+            Numerical Reflection: 1
+            Additive Distillation
+            Muninn's Reflection
+            Jester's Gambit
+            Numerical Reflection: 1
+            Jester's Gambit
+            Surgeon's Exaltation
+            Huginn's Gambit
+        }
+        {
+            (Empty)
+        }
+        Augur's Exaltation
+        Hermes' Gambit
     }
     Augur's Exaltation
     Hermes' Gambit
@@ -98,6 +107,7 @@
         Numerical Reflection: 0
         Selection Distillation
         Gemini Decomposition
+        Length Purification
         Reveal
         Bookkeeper's Gambit: v
         Reveal
