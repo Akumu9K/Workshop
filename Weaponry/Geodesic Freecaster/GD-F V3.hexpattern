@@ -143,10 +143,12 @@ Surgeon's Exaltation
 Numerical Reflection: 1
 Numerical Reflection: 6
 Reading Purification (text)
+//
 Gemini Decomposition
 Mind's Reflection
+// Not necessary if in the world version
 Jester's Gambit
-Program Purification // Program Distillation
+Program Purification II // Program Distillation
 Augur's Purification
 {
     Dequeue
