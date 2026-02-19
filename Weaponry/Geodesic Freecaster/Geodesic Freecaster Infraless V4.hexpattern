@@ -86,7 +86,7 @@
     Muninn's Reflection
     Numerical Reflection: 1
     Selection Distillation
-    Numerical Reflection: 8 // Delay before it gets sent, 83
+    Numerical Reflection: 12 // Delay before it gets sent, 83
     Maximus Distillation
     {
         Numerical Reflection: 8
@@ -155,15 +155,16 @@ Numerical Reflection: -1
 Manipulative Reflection
 Equality Distillation
 {
+    Enqueue
+}
+{
+    Bookkeeper's Gambit: vvv
     {
         (Property Iota)
     }
     Flock's Disintegration
-    Jester's Gambit
-    Schrödinger's Gambit
-}
-{
-    Enqueue
+    Observation Purification
+    Hermes' Gambit
 }
 Augur's Exaltation
 Hermes' Gambit
