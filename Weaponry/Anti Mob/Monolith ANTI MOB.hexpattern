@@ -142,9 +142,9 @@
                     Summon Greater Sentinel
                     // Set up thoth loop
                     Numerical Reflection: 1
-                    Numerical Reflection: 25
+                    Numerical Reflection: 8
                     Gemini Gambit
-                    Numerical Reflection: 25
+                    Numerical Reflection: 8
                     Flock's Gambit
                     {
                         Bookkeeper's Gambit: v
@@ -190,7 +190,7 @@
                                 Locate Sentinel
                                 Mind's Reflection
                                 Alidade's Purification
-                                Numerical Reflection: 15
+                                Numerical Reflection: 8
                                 Multiplicative Distillation
                                 Additive Distillation
                                 Summon Greater Sentinel
@@ -263,9 +263,10 @@ Augur's Purification
         Hermes' Gambit
     }
     {
-        // Selector for whether or not the default attack should be used when there is no suitable attack iota
-        // True ref. for default attack, false ref. for do nothing
-        True Reflection
+        // Modified to only cast in the overworld
+        Homeland Reflection
+        Spatial Reflection II
+        Equality Distillation
         {
             // Default Attack
             Locate Sentinel
