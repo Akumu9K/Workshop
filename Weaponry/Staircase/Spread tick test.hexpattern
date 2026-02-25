@@ -18,9 +18,10 @@ Jester's Gambit
 Bookkeeper's Gambit: v // Stack: Arrow list, fox
 Compass' Purification
 Vector Reflection +Y
-Numerical Reflection: 20
+Numerical Reflection: 5
 Multiplicative Distillation
 Additive Distillation // Stack: Arrow list, fox pos
+
 Jester's Gambit
 Derivation Decomposition // Stack: Fox pos, arrow list, arrow
 Rotation Gambit
@@ -35,55 +36,51 @@ Subtractive Distillation // Stack: Arrow list, fox pos, arrow, gtp vector
 Jester's Gambit
 Gemini Decomposition
 Rotation Gambit // Stack: Arrow list, fox pos, arrow, gtp vector, arrow
-//Jester's Gambit
 Greater Teleport
 Vector Reflection -Y
-Numerical Reflection: 200
+Numerical Reflection: 400
 Multiplicative Distillation
-//
-Jester's Gambit
-Gemini Decomposition
-Rotation Gambit II
-Jester's Gambit
-//
 Impulse // Stack: Arrow list, fox pos
-//
-Pace Purification
-Length Purification
-Reveal
-Bookkeeper's Gambit: v
-//
+
+Flock's Reflection
+Flock's Gambit
+{
+    {
+        Bookkeeper's Gambit: -
+    }
+    Flock's Disintegration
+    Flock's Disintegration
+}
 Jester's Gambit
-Derivation Decomposition
-Rotation Gambit
-Gemini Decomposition
-Rotation Gambit II
+Numerical Reflection: 1
 Jester's Gambit
-Gemini Decomposition
-Compass' Purification
-Rotation Gambit
-Jester's Gambit
-Subtractive Distillation
-Jester's Gambit
-Gemini Decomposition
-Rotation Gambit
-//Jester's Gambit
-Vector Reflection +Y
+Surgeon's Exaltation
+
+{
+    Jester's Gambit
+    Derivation Decomposition
+    Rotation Gambit
+    Gemini Decomposition
+    Rotation Gambit II
+    Jester's Gambit
+    Gemini Decomposition
+    Compass' Purification
+    Rotation Gambit
+    Jester's Gambit
+    Subtractive Distillation
+    Jester's Gambit
+    Gemini Decomposition
+    Rotation Gambit
+    Vector Reflection +Y
+    Additive Distillation
+    Greater Teleport
+    Vector Reflection -Y
+    Numerical Reflection: 800
+    Multiplicative Distillation
+    Impulse
+}
 Additive Distillation
-Greater Teleport
-Vector Reflection -Y
-Numerical Reflection: 300
-Multiplicative Distillation
-//
-Jester's Gambit
-Gemini Decomposition
-Rotation Gambit II
-Jester's Gambit
-//
-Impulse
-//
-Pace Purification
-Length Purification
-Reveal
-Bookkeeper's Gambit: v
-//
+Numerical Reflection: 1
+Numerical Reflection: 5
+Reading Purification (text)
+Enqueue
