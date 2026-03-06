@@ -1,0 +1,44 @@
+// Assume player acquired
+Huginn's Gambit
+
+// Set up rotation:
+Muninn's Reflection
+Alidade's Purification
+Gemini Decomposition
+Vector Disintegration
+Bookkeeper's Gambit: v-v
+Inverse Cosine Purification
+Reveal
+// Adjust for minecrafts way to handle pitch
+Arc's Reflection
+Numerical Reflection: 2
+Division Distillation
+Additive Distillation
+// Pitch acquired, stack: Player Look Dir, Pitch
+Dioscuri Gambit
+Jester's Gambit
+Vector Disintegration
+Bookkeeper's Gambit: -vv
+Jester's Gambit
+Sine Purification
+Division Distillation
+Inverse Sine Purification
+Reveal
+// Yaw acquired, stack: Player Look Dir, Pitch, Yaw
+// Combine them into a dummy vector for easier calculation
+Numerical Reflection: 0
+Vector Exaltation
+// Desired Pitch, Yaw, and null values:
+Numerical Reflection: 0
+Numerical Reflection: 0
+Numerical Reflection: 0
+Vector Exaltation
+// Find difference
+Subtractive Distillation
+// Recover the resulting angles
+Vector Disintegration
+Bookkeeper's Gambit: v
+// Apply rotation
+Muninn's Reflection
+Rotation Gambit II
+Rotate Entity

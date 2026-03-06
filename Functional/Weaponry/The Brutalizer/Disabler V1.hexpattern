@@ -1,0 +1,53 @@
+// Get victim
+Mind's Reflection
+Compass' Purification
+Numerical Reflection: 8
+Zone Distillation: Player
+Speaker's Decomposition
+Bookkeeper's Gambit: v
+Flock's Disintegration
+Mind's Reflection
+// Assume player acquired
+Huginn's Gambit
+// Rotate Player
+Muninn's Reflection
+Numerical Reflection: 0
+Arc's Reflection
+Numerical Reflection: -1
+Multiplicative Distillation
+Rotate Entity
+
+// Block Glitch:
+// Set up the position
+Muninn's Reflection
+Compass' Purification II
+Vector Reflection -Y
+Archer's Distillation
+Vector Reflection +X
+Additive Distillation
+// Boost up
+Vector Reflection +Y
+Numerical Reflection: 1.5
+Multiplicative Distillation
+Additive Distillation
+// Set up the offset for X
+Vector Reflection -X
+Numerical Reflection: 2
+Division Distillation
+Additive Distillation
+Vector Reflection +X
+Numerical Reflection: 0.00001005
+Multiplicative Distillation
+Additive Distillation
+Vector Reflection -X
+Numerical Reflection: 0.3
+Multiplicative Distillation
+Additive Distillation
+// Teleport over to this coordinate exactly
+Muninn's Reflection
+Gemini Decomposition
+Compass' Purification
+Rotation Gambit
+Jester's Gambit
+Subtractive Distillation
+Greater Teleport

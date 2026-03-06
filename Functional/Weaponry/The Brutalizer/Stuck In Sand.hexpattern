@@ -1,0 +1,45 @@
+// Set up the position
+Mind's Reflection
+Compass' Purification
+Vector Reflection +X
+Additive Distillation
+Vector Reflection -Y
+Archer's Distillation
+// Boost up
+Vector Reflection +Y
+Numerical Reflection: 1.5
+Multiplicative Distillation
+Additive Distillation
+// Set up the offset for X
+Vector Reflection -X
+Numerical Reflection: 2
+Division Distillation
+Additive Distillation
+Vector Reflection +X
+Numerical Reflection: 0.00001005
+Multiplicative Distillation
+Additive Distillation
+Vector Reflection -X
+Numerical Reflection: 0.3
+Multiplicative Distillation
+Additive Distillation
+// Set up the offset for Z
+Vector Reflection -Z
+Numerical Reflection: 2
+Division Distillation
+Additive Distillation
+Vector Reflection +Z
+Numerical Reflection: 0.00001005
+Multiplicative Distillation
+Additive Distillation
+Vector Reflection -Z
+Numerical Reflection: 0.3
+Multiplicative Distillation
+Additive Distillation
+// Teleport over to this coordinate exactly
+Mind's Reflection
+Compass' Purification
+Subtractive Distillation
+Mind's Reflection
+Jester's Gambit
+Greater Teleport

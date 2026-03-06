@@ -1,0 +1,48 @@
+// Get victim
+Mind's Reflection
+Compass' Purification
+Numerical Reflection: 8
+Zone Distillation: Player
+Speaker's Decomposition
+Bookkeeper's Gambit: v
+Flock's Disintegration
+//Huginn's Gambit
+// 
+Mind's Reflection
+Huginn's Gambit
+// Demo Coords
+Numerical Reflection: 392.5
+Numerical Reflection: 71.5
+Numerical Reflection: -298.5
+Vector Exaltation
+// Boost up
+Vector Reflection +Y
+Numerical Reflection: 1.5
+Multiplicative Distillation
+Additive Distillation
+// Set up the offset for X
+Vector Reflection -X
+Numerical Reflection: 2
+Division Distillation
+Additive Distillation
+Vector Reflection +X
+Numerical Reflection: 0.00001005
+Multiplicative Distillation
+Additive Distillation
+Vector Reflection -X
+Numerical Reflection: 0.3
+Multiplicative Distillation
+Additive Distillation
+// Set up the offset for Z
+Vector Reflection -Z
+Numerical Reflection: 2
+Division Distillation
+Additive Distillation
+// Teleport over to this coordinate exactly
+Muninn's Reflection
+Gemini Decomposition
+Compass' Purification
+Rotation Gambit
+Jester's Gambit
+Subtractive Distillation
+Greater Teleport
