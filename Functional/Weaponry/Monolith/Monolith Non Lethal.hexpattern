@@ -276,7 +276,7 @@ Augur's Purification
             {
                 // Assume player acquired
                 Huginn's Gambit
-                // Rotate Player
+                // Rotate Player, requires hexical
                 Muninn's Reflection
                 Numerical Reflection: 0
                 Arc's Reflection
@@ -287,8 +287,12 @@ Augur's Purification
                 // Set up the position
                 Muninn's Reflection
                 Compass' Purification II
+                Vector Reflection +Y
+                Numerical Reflection: 2
+                Division Distillation
+                Additive Distillation
                 Gemini Decomposition
-                Place Block
+                Conjure Block
                 Vector Reflection +Y
                 Additive Distillation
                 Vector Reflection -Y
@@ -301,7 +305,12 @@ Augur's Purification
                     Additive Distillation
                     // Boost up
                     Vector Reflection +Y
-                    Numerical Reflection: 1.5
+                    Numerical Reflection: 1.8
+                    (// Only if pekhui is installed
+                    Muninn's Reflection
+                    Gulliver's Purification
+                    Multiplicative Distillation
+                    )// End
                     Multiplicative Distillation
                     Additive Distillation
                     // Set up the offset for X
@@ -309,12 +318,17 @@ Augur's Purification
                     Numerical Reflection: 2
                     Division Distillation
                     Additive Distillation
-                    Vector Reflection +X
+                    Vector Reflection -X
                     Numerical Reflection: 0.00001005
                     Multiplicative Distillation
                     Additive Distillation
-                    Vector Reflection -X
+                    Vector Reflection +X
                     Numerical Reflection: 0.3
+                    (// Only if pekhui is installed
+                    Muninn's Reflection
+                    Gulliver's Purification
+                    Multiplicative Distillation
+                    )// End
                     Multiplicative Distillation
                     Additive Distillation
                     // Teleport over to this coordinate exactly
