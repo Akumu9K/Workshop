@@ -1,0 +1,108 @@
+Mind's Reflection
+Stadiometer's Purification
+(// Only if pekhui is installed
+Mind's Reflection
+Gulliver's Purification
+Division Distillation
+)// End
+Gemini Decomposition
+Gemini Decomposition
+Numerical Reflection: 1.7 // Standing vs Crouching
+Maximus Distillation
+Jester's Gambit
+Numerical Reflection: 1 // Crawling/Flying vs Standing/Crouching
+Minimus Distillation
+Disjunction Distillation
+{
+    Numerical Reflection: 1 // Crawling/Flying vs Standing/Crouching
+    Minimus Distillation
+    {
+        Numerical Reflection: 10 // Impulse length of altiora
+    }
+    {
+        Numerical Reflection: 4 // Impulse length of non altiora
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+
+    Mind's Reflection
+    Alidade's Purification
+    Jester's Gambit
+
+    Gemini Gambit
+    Flock's Reflection
+    Flock's Gambit
+    {
+        Mind's Reflection
+        Jester's Gambit
+        Impulse
+    }
+    Jester's Gambit
+    Thoth's Gambit
+}
+{
+    // Check if in world bounds
+    Mind's Reflection
+    Compass' Purification II
+    Vector Disintegration
+    Bookkeeper's Gambit: v-v
+    Gemini Decomposition
+    Numerical Reflection: 320
+    Maximus Distillation
+    Jester's Gambit
+    Numerical Reflection: -64
+    Minimus Distillation
+    Disjunction Distillation
+    Negation Purification
+    {
+        // Check if ground is in ambit
+        Mind's Reflection
+        Compass' Purification
+        Vector Reflection -Y
+        Archer's Distillation
+        Gemini Decomposition
+        Augur's Purification
+        {
+            // Check if ground is close enough
+            Mind's Reflection
+            Compass' Purification II
+            Subtractive Distillation
+            Length Purification
+            Numerical Reflection: 1
+            Minimus Distillation
+            {
+                True Reflection
+            }
+            {
+                False Reflection
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        {
+            Bookkeeper's Gambit: v
+            False Reflection
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    {
+        False Reflection
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    // Altiora or levitation
+    {
+        Mind's Reflection
+        Altiora
+    }
+    {
+        Mind's Reflection
+        Numerical Reflection: 1
+        Blue Sun's Nadir
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
